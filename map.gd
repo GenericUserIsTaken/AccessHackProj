@@ -25,7 +25,7 @@ func _ready() -> void:
 			var node_name = parser.get_node_name()
 			if node_name == "node":
 				#print("node y x",parser.get_named_attribute_value("lat"),parser.get_named_attribute_value("lon"))
-				curRoad.addcoords(Vector2(float(parser.get_named_attribute_value("lat")),float(parser.get_named_attribute_value("lon"))))
+				curRoad.addcoords(Vector2(float(parser.get_named_attribute_value("lon")),-1*float(parser.get_named_attribute_value("lat"))))
 			elif node_name == "tag":
 				#print("tag type ", parser.get_named_attribute_value("k"))
 				var k = parser.get_named_attribute_value("k")

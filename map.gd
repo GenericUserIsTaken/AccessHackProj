@@ -27,10 +27,10 @@ func _ready() -> void:
 				#print("node y x",parser.get_named_attribute_value("lat"),parser.get_named_attribute_value("lon"))
 				curRoad.addcoords(Vector2(float(parser.get_named_attribute_value("lon")),-1*float(parser.get_named_attribute_value("lat"))))
 			elif node_name == "tag":
-				#print("tag type ", parser.get_named_attribute_value("k"))
+				print("tag type ", parser.get_named_attribute_value("k"))
 				var k = parser.get_named_attribute_value("k")
 				if k:
-					curRoad.type += k
+					curRoad.addtype(k)
 			else:
 				print("unknown data: ",node_name)
 				'''

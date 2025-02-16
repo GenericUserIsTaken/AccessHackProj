@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bc2beq738m8ps"]
+[gd_scene load_steps=2 format=3 uid="uid://bc2beq738m8ps"]
+
+[ext_resource type="Texture2D" uid="uid://bd83nxwp0m31w" path="res://planeface.png" id="1_fu510"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -12,3 +14,7 @@ grow_vertical = 2
 layout_mode = 0
 offset_right = 16.0
 offset_bottom = 17.0
+
+[node name="Planeface" type="Sprite2D" parent="."]
+position = Vector2(407, 101)
+texture = ExtResource("1_fu510")

@@ -1,18 +1,26 @@
-[gd_scene format=3 uid="uid://bc2beq738m8ps"]
+[gd_scene load_steps=2 format=3 uid="uid://bc2beq738m8ps"]
 
-[node name="Control" type="Control"]
+[ext_resource type="Script" path="res://checklist.gd" id="1_63thk"]
+
+[node name="CheckList" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_63thk")
 
-[node name="Tree" type="Tree" parent="."]
+[node name="List" type="Tree" parent="."]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 22.0
+offset_top = 22.0
+offset_right = 22.0
+offset_bottom = 22.0
 grow_horizontal = 2
 grow_vertical = 2
 column_titles_visible = true

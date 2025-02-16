@@ -16,5 +16,5 @@ offset_right = 16.0
 offset_bottom = 17.0
 
 [node name="Planeface" type="Sprite2D" parent="."]
-position = Vector2(407, 101)
+position = Vector2(138, 171)
 texture = ExtResource("1_fu510")

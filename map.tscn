@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://cme04xmqhfjyu"]
+[gd_scene load_steps=2 format=3 uid="uid://cme04xmqhfjyu"]
+
+[ext_resource type="Texture2D" uid="uid://bwu7wjsu8f7pl" path="res://a-small-room-i-made-for-a-scrapped-game-jam-project-v0-iva12m0vrfjc1.webp" id="1_v3eq8"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -7,3 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="A-small-room-i-made-for-a-scrapped-game-jam-project-v0-iva12m0Vrfjc1" type="Sprite2D" parent="."]
+position = Vector2(674, 195)
+texture = ExtResource("1_v3eq8")

@@ -14,5 +14,3 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxEmpty_k7uhl")
 script = ExtResource("1_b1bc6")
-
-[node name="Camera2D" type="Camera2D" parent="."]

@@ -6,12 +6,12 @@ var has_loaded_activities_json := false
 # the json loaded as a dictionary
 # activities (food, entertainment)
 #     catagories (mexican, city parks)
-#         items
+#         locations (restaurant1, park1)
 var activities = {}
 # the catagories the user wants the program to randomize from
 var chosen_catagories = []
 # the randomly selected activities listed as the plan
-var plan_activities = []
+var planned_locations = []
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

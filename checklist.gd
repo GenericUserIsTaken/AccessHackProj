@@ -64,13 +64,13 @@ func rebuild_chosen_list():
 		catagory_pools[activity] = []
 	
 	# read chosen activities and load them into the pools to randomly pick from
-	for item_path in Global.chosen_activities:
+	for item_path in Global.chosen_catagories:
 		var item_path_array = item_path.split(",")
 		catagory_pools[item_path_array[0]].append(item_path_array[1])
 	
 	# fill in each day using the activity pools
 	var plan_days = get_plan_days()
-	Global.plan_activities.clear()
+	Global.planned_locations.clear()
 	for activity in catagory_pools:
 		# if no catagories were chosen for this activity, skip it
 		if catagory_pools[activity].is_empty(): continue
@@ -91,12 +91,12 @@ func rebuild_chosen_list():
 	
 	#TESTING fix this lmao
 	# build the tree nodes
-	for day_name in Global.plan_activities:
+	for day_name in Global.planned_locations:
 		var day = c_list.create_item()
 		for activity_name in Global.plan_activities[day_name]:
 			var activity = c_list.create_item(day)
-			activity.set_text(0, Global.plan_activities[day_name][activity_name])
-			activity.set_metadata(0, activity_name + "," + Global.plan_activities[day_name][activity_name])
+			activity.set_text(0, Global.planned_locations[day_name][activity_name])
+			activity.set_metadata(0, activity_name + "," + Global.planned_locations[day_name][activity_name])
 
 # returns a list of day names based on the current start day and plan length
 func get_plan_days() -> Array:

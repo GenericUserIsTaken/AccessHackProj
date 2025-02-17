@@ -6,8 +6,8 @@ extends Control
 #              0         1          2            3           4         5           6
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
-var start_day = 0
-var plan_length = 6
+var start_day = 5
+var plan_length = 8
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -24,7 +24,10 @@ func _on_loaded_activities_json():
 
 func rebuild_activities_list():
 	# build a tree from the json file of activities
+	a_list.clear()
 	a_list.create_item()
+	a_list.set_column_title(0, "Activities")
+	a_list.set_column_title_alignment(0, HORIZONTAL_ALIGNMENT_CENTER)
 	
 	for activity_name in Global.activities:
 		var activity = a_list.create_item()
@@ -103,9 +106,12 @@ func shuffle_planned_locations():
 	rebuild_chosen_list()
 
 func rebuild_chosen_list():
-	# rebuild the tree nodes
 	p_list.clear()
 	p_list.create_item()
+	p_list.set_column_title(0, "Suggested Plan")
+	p_list.set_column_title_alignment(0, HORIZONTAL_ALIGNMENT_CENTER)
+	
+	# rebuild the tree nodes
 	for day_name in Global.planned_locations:
 		var day = p_list.create_item()
 		day.set_text(0, day_name)
@@ -126,9 +132,20 @@ func get_planned_days() -> Array:
 	for i in plan_length:
 		var day_index = (start_day + i) % 7
 		var day = DAYS[day_index]
-		# if the length of the plan will result in multiple of the same day, number them
-		# "Monday" -> "Monday (1)"
-		if plan_length > 7:
-			day += " (" + str(planned_days.count(day) + 1) + ")"
-		planned_days.append(day)
+		planned_days.append(day + " (" + str(i + 1) + ")")
 	return planned_days
+
+func _on_activities_list_column_title_clicked(column: int, mouse_button_index: int) -> void:
+	toggle_first_layer_collapsed(a_list)
+
+func _on_planned_list_column_title_clicked(column: int, mouse_button_index: int) -> void:
+	toggle_first_layer_collapsed(p_list)
+
+func toggle_first_layer_collapsed(traverse_tree):
+	var should_collapse_all = not traverse_tree.get_root().is_any_collapsed()
+	
+	# apply collapse toggle to all of them
+	var tree_node = traverse_tree.get_root().get_first_child()
+	while tree_node != null:
+		tree_node.collapsed = should_collapse_all
+		tree_node = tree_node.get_next()

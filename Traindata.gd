@@ -22,9 +22,14 @@ func _ready():
 func _on_http_request_request_completed(result, response_code, headers: PackedStringArray, body: PackedByteArray) -> void:
 	print("http request completed")
 	var response = body.get_string_from_utf8()
-	response = JSON.parse_string(response)
-	response = JSON.stringify(response, "    ")
+	response = JSON.parse_string(response) # as a dictionary
+	response = JSON.stringify(response, "    ") # back into a string
 	save_to_file("res://data/testout.json", response)
+	
+	
+	
+	
+	
 	"""
 	var json = JSON.new()
 	var error = json.parse(response)

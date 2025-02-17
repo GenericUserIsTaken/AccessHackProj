@@ -128,8 +128,11 @@ func _update_visible_rect() -> void:
 	var range_y = ((int(_size.y + step.y) - 1) / int(step.y) + 1) / 2 + 1
 	var base_lon = tile_bounds.position.x + tile_bounds.size.x * 0.5
 	var base_lat = tile_bounds.position.y + tile_bounds.size.y * 0.5
-	print(str(base_lon) + " : " + str(base_lat))
-	print(str(tile_bounds))
+	#print(str(base_lon) + " : " + str(base_lat)) #x and y from center
+	#print(str(tile_bounds)) # size
+	print("top left " + str(tile_bounds.position) + " bottom right " + str(tile_bounds.end))
+	#tile_bounds.position
+	#tile_bounds.end
 	
 	for x in range(-range_x, range_x):
 		for y in range(-range_y, range_y):

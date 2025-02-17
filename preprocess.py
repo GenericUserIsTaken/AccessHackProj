@@ -70,15 +70,18 @@ def createPreProcessFiles(tree):
                         #platforms.write('"'+j.get('v')+'",'+i.get('lat')+','+i.get('lon')+"\n")
         print("wrote nodes\n writing final dictionary")
         wayout = dict()
-
-        for i in root.findall('node'):
-            if i.get('id') in noderef:
-                nodedict[i.get('id')] #comes out with way relation
-                wayout.setdefault(nodedict[i.get('id')],list()).append({"lat":i.get('lat'),"lon":i.get('lon')})
+        with open("segments2.txt",'w') as segments:
+            for i in root.findall('node'):
+                if i.get('id') in noderef:
+                    nodedict[i.get('id')] #comes out with way relation
+                    wayout.setdefault(nodedict[i.get('id')],list()).append({"lat":i.get('lat'),"lon":i.get('lon')})
+                    out = ET.tostring(i, encoding='unicode')
+                    segments.write(out)
         print("wrote dictionary")
         wayref = 0
         nodedict = 0
         noderef = 0
+        '''
         print("writing segments")
         with open("segments.txt",'w') as segments:
             out = ""
@@ -88,6 +91,7 @@ def createPreProcessFiles(tree):
                     out += str(j) + ","
                 segments.write(out + "\n")
         print("wrote segments")
+        '''
         print("done!")
         #wow thats really cursed, il probably shove it into json tmr or smth
 

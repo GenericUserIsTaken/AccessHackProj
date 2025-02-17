@@ -50,3 +50,9 @@ func _on_activities_list_item_edited() -> void:
 func rebuild_chosen_list():
 	c_list.clear()
 	c_list.create_item()
+	
+	
+	
+	for item_path in Global.chosen_activities:
+		var item_path_array = item_path.split(",")
+		

@@ -7,8 +7,4 @@ script = ExtResource("1_tvk8a")
 
 [node name="HTTPRequest" type="HTTPRequest" parent="."]
 
-[node name="TextEdit" type="TextEdit" parent="."]
-offset_right = 447.0
-offset_bottom = 245.0
-
 [connection signal="request_completed" from="HTTPRequest" to="." method="_on_http_request_request_completed"]

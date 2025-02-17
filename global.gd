@@ -3,8 +3,15 @@ extends Node
 signal loaded_activities_json()
 var has_loaded_activities_json := false
 
+# the json loaded as a dictionary
+# activities (food, entertainment)
+#     catagories (mexican, city parks)
+#         items
 var activities = {}
-var chosen_activities = []
+# the catagories the user wants the program to randomize from
+var chosen_catagories = []
+# the randomly selected activities listed as the plan
+var plan_activities = []
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

@@ -20,10 +20,15 @@ func _on_HTTPRequest_request_completed(result, response_code, headers, body):
 func _on_http_request_request_completed(result, response_code, headers: PackedStringArray, body: PackedByteArray) -> void:
 	print("httpcompeleted")
 	var response = body.get_string_from_utf8()
-	print(response)
 	var json = JSON.new()
-	print(json.parse_string(response))
 	var parsed = json.get_data()
+	if 'soundtransit.org/ride' in url :
+		print("url found")
+		var index = response.find('class=\"route-arrival-list-item-stop-times-list\"')
+		print (index)
+		#var TimetillArrival = str(data[0])
+		#print (TimetillArrival)
+		
 	
 	
 # Called when the HTTP request is completed.

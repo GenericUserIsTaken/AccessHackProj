@@ -98,6 +98,7 @@ grow_vertical = 0
 text = "planned list"
 
 [node name="Control" type="Control" parent="VBoxContainer/Control2/HSplitContainer"]
+clip_contents = true
 layout_direction = 2
 layout_mode = 2
 
@@ -149,7 +150,7 @@ grow_vertical = 0
 text = "activities list"
 
 [node name="Control2" type="Control" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer"]
-custom_minimum_size = Vector2(0, 80)
+custom_minimum_size = Vector2(0, 60)
 layout_mode = 2
 
 [node name="TempBg4" type="ColorRect" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2"]
@@ -174,30 +175,30 @@ grow_horizontal = 0
 grow_vertical = 0
 text = "day parameters"
 
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2"]
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2"]
+layout_mode = 2
+theme_override_constants/separation = 20
 alignment = 1
 
-[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer"]
-layout_mode = 2
-theme_override_constants/margin_left = 40
-theme_override_constants/margin_top = 20
-theme_override_constants/margin_right = 40
-theme_override_constants/margin_bottom = 20
-
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer2"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer"]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer2/HBoxContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer/HBoxContainer2"]
 layout_mode = 2
-text = "testing"
+text = "Start:"
 
-[node name="OptionButton" type="OptionButton" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer2/HBoxContainer"]
+[node name="StartDaySelector" type="OptionButton" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
 layout_mode = 2
 alignment = 1
 selected = 0
@@ -216,21 +217,25 @@ popup/item_5/id = 5
 popup/item_6/text = "Sunday"
 popup/item_6/id = 6
 
-[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer"]
 layout_mode = 2
-theme_override_constants/margin_left = 40
-theme_override_constants/margin_top = 20
-theme_override_constants/margin_right = 40
-theme_override_constants/margin_bottom = 20
 
-[node name="SpinBox" type="SpinBox" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer"]
+[node name="Label2" type="Label" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Length:"
+
+[node name="PlanLengthSelector" type="SpinBox" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 min_value = 1.0
 max_value = 21.0
-value = 1.0
+value = 3.0
 alignment = 1
 suffix = " days"
 
 [connection signal="column_title_clicked" from="VBoxContainer/Control2/HSplitContainer/Control2/PlannedList" to="." method="_on_planned_list_column_title_clicked"]
 [connection signal="column_title_clicked" from="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control/ActivitiesList" to="." method="_on_activities_list_column_title_clicked"]
 [connection signal="item_edited" from="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control/ActivitiesList" to="." method="_on_activities_list_item_edited"]
+[connection signal="item_selected" from="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer/HBoxContainer2/StartDaySelector" to="." method="_on_option_button_item_selected"]
+[connection signal="value_changed" from="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/MarginContainer2/HBoxContainer/HBoxContainer/PlanLengthSelector" to="." method="_on_spin_box_value_changed"]

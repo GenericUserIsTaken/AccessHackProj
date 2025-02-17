@@ -6,8 +6,8 @@ extends Control
 #              0         1          2            3           4         5           6
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
-var start_day = 5
-var plan_length = 8
+@onready var start_day = int(%StartDaySelector.selected)
+@onready var plan_length = int(%PlanLengthSelector.value)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -149,3 +149,11 @@ func toggle_first_layer_collapsed(traverse_tree):
 	while tree_node != null:
 		tree_node.collapsed = should_collapse_all
 		tree_node = tree_node.get_next()
+
+func _on_option_button_item_selected(index: int) -> void:
+	start_day = index
+	shuffle_planned_locations()
+
+func _on_spin_box_value_changed(value: float) -> void:
+	plan_length = int(value)
+	shuffle_planned_locations()

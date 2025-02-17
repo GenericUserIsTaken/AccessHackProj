@@ -7,7 +7,7 @@ extends Control
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 var start_day = 0
-var plan_length = 1
+var plan_length = 6
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -55,7 +55,7 @@ func update_activity_pools():
 		
 		tree_node = tree_node.get_next_in_tree()
 	
-	print("chosen_catagories", chosen_catagories)#TESTING
+	#print("chosen_catagories", chosen_catagories)#TESTING
 	
 	# setup a dictionary of locations to choose from per activity
 	Global.activity_pools.clear()
@@ -70,7 +70,7 @@ func update_activity_pools():
 		for location in Global.activities[activity][catagory]:
 			Global.activity_pools[activity].append(catagory + "," + location)
 	
-	print("Global.activity_pools", Global.activity_pools)#TESTING
+	#print("Global.activity_pools", Global.activity_pools)#TESTING
 	
 	# update the output tree
 	shuffle_planned_locations()
@@ -94,9 +94,11 @@ func shuffle_planned_locations():
 			
 			# reshuffle if traversed through the entire bag
 			shuffle_pool_index += 1
-			if shuffle_pool_index >= Global.activity_pools[activity].length():
+			if shuffle_pool_index >= Global.activity_pools[activity].size():
 				shuffle_pool_index = 0
 				Global.activity_pools[activity].shuffle()
+	
+	#print("Global.planned_locations", Global.planned_locations)#TESTING
 	
 	rebuild_chosen_list()
 
@@ -106,6 +108,8 @@ func rebuild_chosen_list():
 	p_list.create_item()
 	for day_name in Global.planned_locations:
 		var day = p_list.create_item()
+		day.set_text(0, day_name)
+		
 		for activity_name in Global.planned_locations[day_name]:
 			var location_path_array = Global.planned_locations[day_name][activity_name].split(",")
 			var catagory_name = location_path_array[0]

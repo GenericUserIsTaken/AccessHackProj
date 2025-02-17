@@ -24,7 +24,9 @@ func _on_http_request_request_completed(result, response_code, headers: PackedSt
 	var parsed = json.get_data()
 	if 'soundtransit.org/ride' in url :
 		print("url found")
-		var index = response.find('class=\"route-arrival-list-item-stop-times-list\"')
+		data = response.split('class="route-arrival-list-item-stop-times-list"')
+		print(str(data[1]))
+		var index = response.find('class="route-arrival-list-item-stop-times-list"')
 		print (index)
 		#var TimetillArrival = str(data[0])
 		#print (TimetillArrival)

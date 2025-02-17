@@ -1,0 +1,1564 @@
+{
+    "code": 200,
+    "currentTime": 1739824370739,
+    "data": {
+        "entry": {
+            "routeId": "40_100479",
+            "stopGroupings": [
+                {
+                    "ordered": true,
+                    "stopGroups": [
+                        {
+                            "id": "0",
+                            "name": {
+                                "name": "Angle Lake",
+                                "names": [
+                                    "Angle Lake"
+                                ],
+                                "type": "destination"
+                            },
+                            "stopIds": [
+                                "40_N23-T2",
+                                "40_N19-T2",
+                                "40_N17-T2",
+                                "40_N15-T1",
+                                "40_N15-T2",
+                                "40_990006",
+                                "40_990005",
+                                "40_990003",
+                                "40_990001",
+                                "40_99604",
+                                "40_99603",
+                                "40_99610",
+                                "40_1108",
+                                "40_455",
+                                "40_501",
+                                "40_623",
+                                "40_99101",
+                                "40_99111",
+                                "40_99121",
+                                "40_55949",
+                                "40_56039",
+                                "40_56159",
+                                "40_56173",
+                                "40_99900",
+                                "40_99904",
+                                "40_990004",
+                                "40_990002",
+                                "40_99913",
+                                "40_99914"
+                            ],
+                            "subGroups": []
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "name": "Lynnwood City Center",
+                                "names": [
+                                    "Lynnwood City Center"
+                                ],
+                                "type": "destination"
+                            },
+                            "stopIds": [
+                                "40_99913",
+                                "40_99914",
+                                "40_99903",
+                                "40_99905",
+                                "40_55578",
+                                "40_55656",
+                                "40_55778",
+                                "40_55860",
+                                "40_99240",
+                                "40_99256",
+                                "40_99260",
+                                "40_621",
+                                "40_532",
+                                "40_565",
+                                "40_1121",
+                                "40_99603",
+                                "40_99605",
+                                "40_990001",
+                                "40_990002",
+                                "40_990003",
+                                "40_990004",
+                                "40_990006",
+                                "40_N15-T1",
+                                "40_N17-T1",
+                                "40_N19-T1",
+                                "40_N23-T1",
+                                "40_99111"
+                            ],
+                            "subGroups": []
+                        }
+                    ],
+                    "type": "direction"
+                }
+            ],
+            "stopIds": [
+                "40_1108",
+                "40_1121",
+                "40_455",
+                "40_501",
+                "40_532",
+                "40_55578",
+                "40_55656",
+                "40_55778",
+                "40_55860",
+                "40_55949",
+                "40_56039",
+                "40_56159",
+                "40_56173",
+                "40_565",
+                "40_621",
+                "40_623",
+                "40_990001",
+                "40_990002",
+                "40_990003",
+                "40_990004",
+                "40_990005",
+                "40_990006",
+                "40_99101",
+                "40_99111",
+                "40_99121",
+                "40_99240",
+                "40_99256",
+                "40_99260",
+                "40_99603",
+                "40_99604",
+                "40_99605",
+                "40_99610",
+                "40_99900",
+                "40_99903",
+                "40_99904",
+                "40_99905",
+                "40_99913",
+                "40_99914",
+                "40_N15-T1",
+                "40_N15-T2",
+                "40_N17-T1",
+                "40_N17-T2",
+                "40_N19-T1",
+                "40_N19-T2",
+                "40_N23-T1",
+                "40_N23-T2"
+            ]
+        },
+        "references": {
+            "agencies": [
+                {
+                    "disclaimer": "",
+                    "email": "main@soundtransit.org",
+                    "fareUrl": "https://www.soundtransit.org/ride-with-us/how-to-pay/fares",
+                    "id": "40",
+                    "lang": "en",
+                    "name": "Sound Transit",
+                    "phone": "1-888-889-6368",
+                    "privateService": false,
+                    "timezone": "America/Los_Angeles",
+                    "url": "https://www.soundtransit.org"
+                }
+            ],
+            "routes": [
+                {
+                    "agencyId": "40",
+                    "color": "28813F",
+                    "description": "1 Line runs between Lynnwood City Center Station and Angle Lake Station seven days a week",
+                    "id": "40_100479",
+                    "longName": "Lynnwood - Angle Lake",
+                    "nullSafeShortName": "1 Line",
+                    "shortName": "1 Line",
+                    "textColor": "FFFFFF",
+                    "type": 0,
+                    "url": "https://www.soundtransit.org/1"
+                }
+            ],
+            "situations": [],
+            "stopTimes": [],
+            "stops": [
+                {
+                    "code": "C03",
+                    "direction": "",
+                    "id": "40_C03",
+                    "lat": 47.611572,
+                    "locationType": 0,
+                    "lon": -122.33672,
+                    "name": "Westlake",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "1108",
+                    "direction": "SW",
+                    "id": "40_1108",
+                    "lat": 47.61145,
+                    "locationType": 0,
+                    "lon": -122.337532,
+                    "name": "Westlake",
+                    "parent": "40_C03",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C03",
+                    "direction": "",
+                    "id": "40_C03",
+                    "lat": 47.611572,
+                    "locationType": 0,
+                    "lon": -122.33672,
+                    "name": "Westlake",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "1121",
+                    "direction": "NE",
+                    "id": "40_1121",
+                    "lat": 47.611759,
+                    "locationType": 0,
+                    "lon": -122.335785,
+                    "name": "Westlake",
+                    "parent": "40_C03",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C05",
+                    "direction": "",
+                    "id": "40_C05",
+                    "lat": 47.60781,
+                    "locationType": 0,
+                    "lon": -122.33602,
+                    "name": "Symphony",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "455",
+                    "direction": "SE",
+                    "id": "40_455",
+                    "lat": 47.607246,
+                    "locationType": 0,
+                    "lon": -122.335754,
+                    "name": "Symphony",
+                    "parent": "40_C05",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C07",
+                    "direction": "",
+                    "id": "40_C07",
+                    "lat": 47.60256,
+                    "locationType": 0,
+                    "lon": -122.331216,
+                    "name": "Pioneer Square",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "501",
+                    "direction": "SE",
+                    "id": "40_501",
+                    "lat": 47.602139,
+                    "locationType": 0,
+                    "lon": -122.331055,
+                    "name": "Pioneer Square",
+                    "parent": "40_C07",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C07",
+                    "direction": "",
+                    "id": "40_C07",
+                    "lat": 47.60256,
+                    "locationType": 0,
+                    "lon": -122.331216,
+                    "name": "Pioneer Square",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "532",
+                    "direction": "NW",
+                    "id": "40_532",
+                    "lat": 47.603199,
+                    "locationType": 0,
+                    "lon": -122.331581,
+                    "name": "Pioneer Square",
+                    "parent": "40_C07",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C29",
+                    "direction": "",
+                    "id": "40_C29",
+                    "lat": 47.522394,
+                    "locationType": 0,
+                    "lon": -122.279391,
+                    "name": "Rainier Beach",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "55578",
+                    "direction": "N",
+                    "id": "40_55578",
+                    "lat": 47.522953,
+                    "locationType": 0,
+                    "lon": -122.279083,
+                    "name": "Rainier Beach",
+                    "parent": "40_C29",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C27",
+                    "direction": "",
+                    "id": "40_C27",
+                    "lat": 47.537987,
+                    "locationType": 0,
+                    "lon": -122.281563,
+                    "name": "Othello",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "55656",
+                    "direction": "NW",
+                    "id": "40_55656",
+                    "lat": 47.538502,
+                    "locationType": 0,
+                    "lon": -122.281693,
+                    "name": "Othello",
+                    "parent": "40_C27",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C25",
+                    "direction": "",
+                    "id": "40_C25",
+                    "lat": 47.559733,
+                    "locationType": 0,
+                    "lon": -122.292692,
+                    "name": "Columbia City",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "55778",
+                    "direction": "NW",
+                    "id": "40_55778",
+                    "lat": 47.56028,
+                    "locationType": 0,
+                    "lon": -122.292892,
+                    "name": "Columbia City",
+                    "parent": "40_C25",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C23",
+                    "direction": "",
+                    "id": "40_C23",
+                    "lat": 47.57655,
+                    "locationType": 0,
+                    "lon": -122.297679,
+                    "name": "Mount Baker",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "55860",
+                    "direction": "NW",
+                    "id": "40_55860",
+                    "lat": 47.576992,
+                    "locationType": 0,
+                    "lon": -122.297867,
+                    "name": "Mount Baker",
+                    "parent": "40_C23",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C23",
+                    "direction": "",
+                    "id": "40_C23",
+                    "lat": 47.57655,
+                    "locationType": 0,
+                    "lon": -122.297679,
+                    "name": "Mount Baker",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "55949",
+                    "direction": "SE",
+                    "id": "40_55949",
+                    "lat": 47.576439,
+                    "locationType": 0,
+                    "lon": -122.297737,
+                    "name": "Mount Baker",
+                    "parent": "40_C23",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C25",
+                    "direction": "",
+                    "id": "40_C25",
+                    "lat": 47.559733,
+                    "locationType": 0,
+                    "lon": -122.292692,
+                    "name": "Columbia City",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "56039",
+                    "direction": "SE",
+                    "id": "40_56039",
+                    "lat": 47.559025,
+                    "locationType": 0,
+                    "lon": -122.292389,
+                    "name": "Columbia City",
+                    "parent": "40_C25",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C27",
+                    "direction": "",
+                    "id": "40_C27",
+                    "lat": 47.537987,
+                    "locationType": 0,
+                    "lon": -122.281563,
+                    "name": "Othello",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "56159",
+                    "direction": "SE",
+                    "id": "40_56159",
+                    "lat": 47.537529,
+                    "locationType": 0,
+                    "lon": -122.281471,
+                    "name": "Othello",
+                    "parent": "40_C27",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C29",
+                    "direction": "",
+                    "id": "40_C29",
+                    "lat": 47.522394,
+                    "locationType": 0,
+                    "lon": -122.279391,
+                    "name": "Rainier Beach",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "56173",
+                    "direction": "S",
+                    "id": "40_56173",
+                    "lat": 47.522266,
+                    "locationType": 0,
+                    "lon": -122.279587,
+                    "name": "Rainier Beach",
+                    "parent": "40_C29",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C05",
+                    "direction": "",
+                    "id": "40_C05",
+                    "lat": 47.60781,
+                    "locationType": 0,
+                    "lon": -122.33602,
+                    "name": "Symphony",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "565",
+                    "direction": "NW",
+                    "id": "40_565",
+                    "lat": 47.608246,
+                    "locationType": 0,
+                    "lon": -122.336166,
+                    "name": "Symphony",
+                    "parent": "40_C05",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C09",
+                    "direction": "",
+                    "id": "40_C09",
+                    "lat": 47.598355,
+                    "locationType": 0,
+                    "lon": -122.327992,
+                    "name": "Int'l Dist/Chinatown",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "621",
+                    "direction": "N",
+                    "id": "40_621",
+                    "lat": 47.598438,
+                    "locationType": 0,
+                    "lon": -122.32782,
+                    "name": "Int'l Dist/Chinatown",
+                    "parent": "40_C09",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C09",
+                    "direction": "",
+                    "id": "40_C09",
+                    "lat": 47.598355,
+                    "locationType": 0,
+                    "lon": -122.327992,
+                    "name": "Int'l Dist/Chinatown",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "623",
+                    "direction": "S",
+                    "id": "40_623",
+                    "lat": 47.59766,
+                    "locationType": 0,
+                    "lon": -122.328217,
+                    "name": "Int'l Dist/Chinatown",
+                    "parent": "40_C09",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N07",
+                    "direction": "",
+                    "id": "40_N07",
+                    "lat": 47.660301,
+                    "locationType": 0,
+                    "lon": -122.314132,
+                    "name": "U District",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "990001",
+                    "direction": "",
+                    "id": "40_990001",
+                    "lat": 47.659875,
+                    "locationType": 0,
+                    "lon": -122.314194,
+                    "name": "U District",
+                    "parent": "40_N07",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N07",
+                    "direction": "",
+                    "id": "40_N07",
+                    "lat": 47.660301,
+                    "locationType": 0,
+                    "lon": -122.314132,
+                    "name": "U District",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "990002",
+                    "direction": "",
+                    "id": "40_990002",
+                    "lat": 47.660749,
+                    "locationType": 0,
+                    "lon": -122.314067,
+                    "name": "U District",
+                    "parent": "40_N07",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N09",
+                    "direction": "",
+                    "id": "40_N09",
+                    "lat": 47.676595,
+                    "locationType": 0,
+                    "lon": -122.315976,
+                    "name": "Roosevelt",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "990003",
+                    "direction": "",
+                    "id": "40_990003",
+                    "lat": 47.676107,
+                    "locationType": 0,
+                    "lon": -122.316041,
+                    "name": "Roosevelt",
+                    "parent": "40_N09",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N09",
+                    "direction": "",
+                    "id": "40_N09",
+                    "lat": 47.676595,
+                    "locationType": 0,
+                    "lon": -122.315976,
+                    "name": "Roosevelt",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "990004",
+                    "direction": "",
+                    "id": "40_990004",
+                    "lat": 47.677081,
+                    "locationType": 0,
+                    "lon": -122.315928,
+                    "name": "Roosevelt",
+                    "parent": "40_N09",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N11",
+                    "direction": "",
+                    "id": "40_N11",
+                    "lat": 47.703028,
+                    "locationType": 0,
+                    "lon": -122.32829,
+                    "name": "Northgate",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "990005",
+                    "direction": "S",
+                    "id": "40_990005",
+                    "lat": 47.702662,
+                    "locationType": 0,
+                    "lon": -122.32832,
+                    "name": "Northgate",
+                    "parent": "40_N11",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N11",
+                    "direction": "",
+                    "id": "40_N11",
+                    "lat": 47.703028,
+                    "locationType": 0,
+                    "lon": -122.32829,
+                    "name": "Northgate",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "990006",
+                    "direction": "",
+                    "id": "40_990006",
+                    "lat": 47.703414,
+                    "locationType": 0,
+                    "lon": -122.328244,
+                    "name": "Northgate",
+                    "parent": "40_N11",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C13",
+                    "direction": "",
+                    "id": "40_C13",
+                    "lat": 47.591108,
+                    "locationType": 0,
+                    "lon": -122.327172,
+                    "name": "Stadium",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99101",
+                    "direction": "S",
+                    "id": "40_99101",
+                    "lat": 47.591824,
+                    "locationType": 0,
+                    "lon": -122.327354,
+                    "name": "Stadium",
+                    "parent": "40_C13",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C15",
+                    "direction": "",
+                    "id": "40_C15",
+                    "lat": 47.581074,
+                    "locationType": 0,
+                    "lon": -122.32739,
+                    "name": "SODO",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99111",
+                    "direction": "",
+                    "id": "40_99111",
+                    "lat": 47.579952,
+                    "locationType": 0,
+                    "lon": -122.327522,
+                    "name": "SODO",
+                    "parent": "40_C15",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C19",
+                    "direction": "",
+                    "id": "40_C19",
+                    "lat": 47.579328,
+                    "locationType": 0,
+                    "lon": -122.311533,
+                    "name": "Beacon Hill",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99121",
+                    "direction": "E",
+                    "id": "40_99121",
+                    "lat": 47.579124,
+                    "locationType": 0,
+                    "lon": -122.311279,
+                    "name": "Beacon Hill",
+                    "parent": "40_C19",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C19",
+                    "direction": "",
+                    "id": "40_C19",
+                    "lat": 47.579328,
+                    "locationType": 0,
+                    "lon": -122.311533,
+                    "name": "Beacon Hill",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99240",
+                    "direction": "W",
+                    "id": "40_99240",
+                    "lat": 47.579678,
+                    "locationType": 0,
+                    "lon": -122.311401,
+                    "name": "Beacon Hill",
+                    "parent": "40_C19",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C15",
+                    "direction": "",
+                    "id": "40_C15",
+                    "lat": 47.581074,
+                    "locationType": 0,
+                    "lon": -122.32739,
+                    "name": "SODO",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99256",
+                    "direction": "N",
+                    "id": "40_99256",
+                    "lat": 47.580589,
+                    "locationType": 0,
+                    "lon": -122.327263,
+                    "name": "SODO",
+                    "parent": "40_C15",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C13",
+                    "direction": "",
+                    "id": "40_C13",
+                    "lat": 47.591108,
+                    "locationType": 0,
+                    "lon": -122.327172,
+                    "name": "Stadium",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99260",
+                    "direction": "N",
+                    "id": "40_99260",
+                    "lat": 47.592285,
+                    "locationType": 0,
+                    "lon": -122.326988,
+                    "name": "Stadium",
+                    "parent": "40_C13",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N03",
+                    "direction": "",
+                    "id": "40_N03",
+                    "lat": 47.61906,
+                    "locationType": 0,
+                    "lon": -122.320195,
+                    "name": "Capitol Hill",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99603",
+                    "direction": "",
+                    "id": "40_99603",
+                    "lat": 47.619621,
+                    "locationType": 0,
+                    "lon": -122.320038,
+                    "name": "Capitol Hill",
+                    "parent": "40_N03",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N05",
+                    "direction": "",
+                    "id": "40_N05",
+                    "lat": 47.649815,
+                    "locationType": 0,
+                    "lon": -122.303763,
+                    "name": "Univ of Washington",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99604",
+                    "direction": "S",
+                    "id": "40_99604",
+                    "lat": 47.649349,
+                    "locationType": 0,
+                    "lon": -122.303795,
+                    "name": "Univ of Washington",
+                    "parent": "40_N05",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N05",
+                    "direction": "",
+                    "id": "40_N05",
+                    "lat": 47.649815,
+                    "locationType": 0,
+                    "lon": -122.303763,
+                    "name": "Univ of Washington",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99605",
+                    "direction": "N",
+                    "id": "40_99605",
+                    "lat": 47.650312,
+                    "locationType": 0,
+                    "lon": -122.303736,
+                    "name": "Univ of Washington",
+                    "parent": "40_N05",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N03",
+                    "direction": "",
+                    "id": "40_N03",
+                    "lat": 47.61906,
+                    "locationType": 0,
+                    "lon": -122.320195,
+                    "name": "Capitol Hill",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99610",
+                    "direction": "S",
+                    "id": "40_99610",
+                    "lat": 47.61956,
+                    "locationType": 0,
+                    "lon": -122.320389,
+                    "name": "Capitol Hill",
+                    "parent": "40_N03",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C35",
+                    "direction": "",
+                    "id": "40_C35",
+                    "lat": 47.464031,
+                    "locationType": 0,
+                    "lon": -122.287996,
+                    "name": "Tukwila Int'l Blvd",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99900",
+                    "direction": "W",
+                    "id": "40_99900",
+                    "lat": 47.464272,
+                    "locationType": 0,
+                    "lon": -122.288399,
+                    "name": "Tukwila Int'l Blvd",
+                    "parent": "40_C35",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C37",
+                    "direction": "",
+                    "id": "40_C37",
+                    "lat": 47.445381,
+                    "locationType": 0,
+                    "lon": -122.296898,
+                    "name": "SeaTac/Airport",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99903",
+                    "direction": "N",
+                    "id": "40_99903",
+                    "lat": 47.445053,
+                    "locationType": 0,
+                    "lon": -122.296692,
+                    "name": "SeaTac/Airport",
+                    "parent": "40_C37",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C37",
+                    "direction": "",
+                    "id": "40_C37",
+                    "lat": 47.445381,
+                    "locationType": 0,
+                    "lon": -122.296898,
+                    "name": "SeaTac/Airport",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99904",
+                    "direction": "S",
+                    "id": "40_99904",
+                    "lat": 47.444969,
+                    "locationType": 0,
+                    "lon": -122.297028,
+                    "name": "SeaTac/Airport",
+                    "parent": "40_C37",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "C35",
+                    "direction": "",
+                    "id": "40_C35",
+                    "lat": 47.464031,
+                    "locationType": 0,
+                    "lon": -122.287996,
+                    "name": "Tukwila Int'l Blvd",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99905",
+                    "direction": "E",
+                    "id": "40_99905",
+                    "lat": 47.463924,
+                    "locationType": 0,
+                    "lon": -122.288002,
+                    "name": "Tukwila Int'l Blvd",
+                    "parent": "40_C35",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "S01",
+                    "direction": "",
+                    "id": "40_S01",
+                    "lat": 47.422703,
+                    "locationType": 0,
+                    "lon": -122.297714,
+                    "name": "Angle Lake",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99913",
+                    "direction": "",
+                    "id": "40_99913",
+                    "lat": 47.422154,
+                    "locationType": 0,
+                    "lon": -122.297958,
+                    "name": "Angle Lake",
+                    "parent": "40_S01",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "S01",
+                    "direction": "",
+                    "id": "40_S01",
+                    "lat": 47.422703,
+                    "locationType": 0,
+                    "lon": -122.297714,
+                    "name": "Angle Lake",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "99914",
+                    "direction": "",
+                    "id": "40_99914",
+                    "lat": 47.423122,
+                    "locationType": 0,
+                    "lon": -122.297615,
+                    "name": "Angle Lake",
+                    "parent": "40_S01",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N15",
+                    "direction": "",
+                    "id": "40_N15",
+                    "lat": 47.736095,
+                    "locationType": 0,
+                    "lon": -122.325227,
+                    "name": "Shoreline South/148th",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N15-T1",
+                    "direction": "",
+                    "id": "40_N15-T1",
+                    "lat": 47.736499,
+                    "locationType": 0,
+                    "lon": -122.325446,
+                    "name": "Shoreline South/148th",
+                    "parent": "40_N15",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N15",
+                    "direction": "",
+                    "id": "40_N15",
+                    "lat": 47.736095,
+                    "locationType": 0,
+                    "lon": -122.325227,
+                    "name": "Shoreline South/148th",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N15-T2",
+                    "direction": "SE",
+                    "id": "40_N15-T2",
+                    "lat": 47.735753,
+                    "locationType": 0,
+                    "lon": -122.32504,
+                    "name": "Shoreline South/148th",
+                    "parent": "40_N15",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N17",
+                    "direction": "",
+                    "id": "40_N17",
+                    "lat": 47.764067,
+                    "locationType": 0,
+                    "lon": -122.322889,
+                    "name": "Shoreline North/185th",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N17-T1",
+                    "direction": "N",
+                    "id": "40_N17-T1",
+                    "lat": 47.764477,
+                    "locationType": 0,
+                    "lon": -122.322731,
+                    "name": "Shoreline North/185th",
+                    "parent": "40_N17",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N17",
+                    "direction": "",
+                    "id": "40_N17",
+                    "lat": 47.764067,
+                    "locationType": 0,
+                    "lon": -122.322889,
+                    "name": "Shoreline North/185th",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N17-T2",
+                    "direction": "S",
+                    "id": "40_N17-T2",
+                    "lat": 47.763699,
+                    "locationType": 0,
+                    "lon": -122.323048,
+                    "name": "Shoreline North/185th",
+                    "parent": "40_N17",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N19",
+                    "direction": "",
+                    "id": "40_N19",
+                    "lat": 47.785057,
+                    "locationType": 0,
+                    "lon": -122.314788,
+                    "name": "Mountlake Terrace",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N19-T1",
+                    "direction": "N",
+                    "id": "40_N19-T1",
+                    "lat": 47.785448,
+                    "locationType": 0,
+                    "lon": -122.314761,
+                    "name": "Mountlake Terrace",
+                    "parent": "40_N19",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N19",
+                    "direction": "",
+                    "id": "40_N19",
+                    "lat": 47.785057,
+                    "locationType": 0,
+                    "lon": -122.314788,
+                    "name": "Mountlake Terrace",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N19-T2",
+                    "direction": "S",
+                    "id": "40_N19-T2",
+                    "lat": 47.784548,
+                    "locationType": 0,
+                    "lon": -122.314801,
+                    "name": "Mountlake Terrace",
+                    "parent": "40_N19",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N23",
+                    "direction": "",
+                    "id": "40_N23",
+                    "lat": 47.815637,
+                    "locationType": 0,
+                    "lon": -122.294779,
+                    "name": "Lynnwood City Center",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N23-T1",
+                    "direction": "NE",
+                    "id": "40_N23-T1",
+                    "lat": 47.815876,
+                    "locationType": 0,
+                    "lon": -122.294275,
+                    "name": "Lynnwood City Center",
+                    "parent": "40_N23",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N23",
+                    "direction": "",
+                    "id": "40_N23",
+                    "lat": 47.815637,
+                    "locationType": 0,
+                    "lon": -122.294779,
+                    "name": "Lynnwood City Center",
+                    "parent": "",
+                    "routeIds": [],
+                    "staticRouteIds": [],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                },
+                {
+                    "code": "N23-T2",
+                    "direction": "SW",
+                    "id": "40_N23-T2",
+                    "lat": 47.815403,
+                    "locationType": 0,
+                    "lon": -122.295185,
+                    "name": "Lynnwood City Center",
+                    "parent": "40_N23",
+                    "routeIds": [
+                        "40_100479"
+                    ],
+                    "staticRouteIds": [
+                        "40_100479"
+                    ],
+                    "wheelchairBoarding": "ACCESSIBLE"
+                }
+            ],
+            "trips": []
+        }
+    },
+    "text": "OK",
+    "version": 2
+}

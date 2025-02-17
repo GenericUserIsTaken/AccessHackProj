@@ -1,7 +1,7 @@
 extends Control
 
 @onready var a_list = %ActivitiesList
-@onready var c_list = %ChosenList
+@onready var p_list = %PlannedList
 
 #              0         1          2            3           4         5           6
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
@@ -50,59 +50,77 @@ func _on_activities_list_item_edited() -> void:
 			Global.chosen_catagories.append(activity_as_string)
 		
 		tree_node = tree_node.get_next_in_tree()
+	
+	print("Global.chosen_catagories", Global.chosen_catagories)#TESTING
+	
+	# setup a dictionary of locations to choose from per activity
+	Global.activity_pools.clear()
+	for activity in Global.activities.keys():
+		Global.activity_pools[activity] = []
+	
+	# read chosen catagories and load them into the pools to randomly pick from
+	for catagory_path in Global.chosen_catagories:
+		var catagory_path_array = catagory_path.split(",")
+		var activity = catagory_path_array[0]
+		var catagory = catagory_path_array[1]
+		for location in Global.activities[activity][catagory]:
+			Global.activity_pools[activity].append(catagory + "," + location)
+	
+	print("Global.activity_pools", Global.activity_pools)#TESTING
+	
+	# update the output tree
+	shuffle_planned_locations()
 
-func rebuild_chosen_list():
-	c_list.clear()
-	c_list.create_item()
-	
-	# get a list of each activity we need to pick one from
-	var activities_to_fill = Global.activities.keys()
-	
-	# setup a dictionary of all the catagory pools we need to fill and pick from
-	var catagory_pools = {}
-	for activity in activities_to_fill:
-		catagory_pools[activity] = []
-	
-	# read chosen activities and load them into the pools to randomly pick from
-	for item_path in Global.chosen_catagories:
-		var item_path_array = item_path.split(",")
-		catagory_pools[item_path_array[0]].append(item_path_array[1])
-	
-	# fill in each day using the activity pools
-	var plan_days = get_plan_days()
+func shuffle_planned_locations():
+	# fill in each day using locations from the activity pools
+	var planned_days = get_planned_days()
 	Global.planned_locations.clear()
-	for activity in catagory_pools:
+	for activity in Global.activity_pools:
 		# if no catagories were chosen for this activity, skip it
-		if catagory_pools[activity].is_empty(): continue
+		if Global.activity_pools[activity].is_empty(): continue
 		
 		# will pick from a shuffled bag without replacement, reshuffle once empty
-		catagory_pools[activity].shuffle()
+		Global.activity_pools[activity].shuffle()
 		var shuffle_pool_index = 0
-		for day in plan_days:
+		for day in planned_days:
+			if not Global.planned_locations.has(day): Global.planned_locations[day] = {}
 			
 			# set the activity for the day
-			Global.plan_activities[day][activity] = catagory_pools[activity][shuffle_pool_index]
+			Global.planned_locations[day][activity] = Global.activity_pools[activity][shuffle_pool_index]
 			
-			# reshuffle if run through the entire bag
+			# reshuffle if traversed through the entire bag
 			shuffle_pool_index += 1
-			if shuffle_pool_index >= catagory_pools[activity].length():
+			if shuffle_pool_index >= Global.activity_pools[activity].length():
 				shuffle_pool_index = 0
-				catagory_pools[activity].shuffle()
+				Global.activity_pools[activity].shuffle()
 	
-	#TESTING fix this lmao
-	# build the tree nodes
+	rebuild_chosen_list()
+
+func rebuild_chosen_list():
+	# rebuild the tree nodes
+	p_list.clear()
+	p_list.create_item()
 	for day_name in Global.planned_locations:
-		var day = c_list.create_item()
-		for activity_name in Global.plan_activities[day_name]:
-			var activity = c_list.create_item(day)
-			activity.set_text(0, Global.planned_locations[day_name][activity_name])
-			activity.set_metadata(0, activity_name + "," + Global.planned_locations[day_name][activity_name])
+		var day = p_list.create_item()
+		for activity_name in Global.planned_locations[day_name]:
+			var location_path_array = Global.planned_locations[day_name][activity_name].split(",")
+			var catagory_name = location_path_array[0]
+			var location_name = location_path_array[1]
+			
+			# create the node with the info of location and path
+			var location = p_list.create_item(day)
+			location.set_text(0, location_name.capitalize())
+			location.set_metadata(0, activity_name + "," + catagory_name + "," + location_name)
 
 # returns a list of day names based on the current start day and plan length
-func get_plan_days() -> Array:
-	var plan_days = []
+func get_planned_days() -> Array:
+	var planned_days = []
 	for i in plan_length:
 		var day_index = (start_day + i) % 7
 		var day = DAYS[day_index]
-		plan_days.append(day + " " + str(plan_days.count(day) + 1))
-	return plan_days
+		# if the length of the plan will result in multiple of the same day, number them
+		# "Monday" -> "Monday (1)"
+		if plan_length > 7:
+			day += " (" + str(planned_days.count(day) + 1) + ")"
+		planned_days.append(day)
+	return planned_days

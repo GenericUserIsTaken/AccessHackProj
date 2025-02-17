@@ -80,7 +80,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.65, 1, 0.830833, 1)
 
-[node name="ChosenList" type="Tree" parent="VBoxContainer/Control2/HSplitContainer/Control2"]
+[node name="PlannedList" type="Tree" parent="VBoxContainer/Control2/HSplitContainer/Control2"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15

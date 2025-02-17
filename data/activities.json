@@ -1,41 +1,201 @@
 {
 	"food": {
-		"catagory1": {
-			"location1": {
-				"address": "placeholder1",
-				"hours": "placeholder1",
-				"link": "placeholder1",
-				"description": "placeholder1"
+		"mexican": {
+			"Fonda Lola": {
+				"address": "1422 Harvard Ave E, Seattle, WA 98122",
+				"hours": "10am - 11am",
+				"link": "https://www.lolaseattle.com/",
+				"description": "Known for its upscale take on traditional Mexican cuisine with a focus on fresh, local ingredients."
 			},
-			"location2": {
-				"address": "placeholder2",
-				"hours": "placeholder2",
-				"link": "placeholder2",
-				"description": "placeholder2"
+			"Casa Oaxaca": {
+				"address": "209 Taylor Ave N, Seattle, WA 98109",
+				"hours": "11:30am - 9:30pm",
+				"link": "https://www.casaoaxacaedmonds.com/menu",
+				"description": "Specializes in Oaxacan cuisine, which is distinct for its complex moles and tlayudas (large, crispy tortillas with various toppings)."
+			},
+			"Alibertos": {
+				"address": "2425 4th Ave s Seattle Wa 98134",
+				"hours": "7am - 12pm",
+				"link": "https://alibertosjrs.com/#menu",
+				"description": "Casual Mexican eatery serving favorites including breakfast burritos, carne asada fries, and churros."
+			}
+		},
+		"italian": {
+			"Spinasse": {
+				"address": "1531 14th Ave, Seattle, WA 98122",
+				"hours": "5pm - 10pm",
+				"link": "https://spinasse.com/",
+				"description": "Elegant Italian dining with handmade pasta and regional dishes."
+			},
+			"Serafina": {
+				"address": "2043 Eastlake Ave E, Seattle, WA 98102",
+				"hours": "5pm - 10pm",
+				"link": "https://serafinaseattle.com/",
+				"description": "Cozy trattoria serving classic Italian fare in a romantic setting."
+			},
+			"Tavol\u00c3\u00a0ta": {
+				"address": "2323 2nd Ave, Seattle, WA 98121",
+				"hours": "5pm - 10pm",
+				"link": "https://tavolata.com/",
+				"description": "Modern Italian eatery known for house-made pasta and communal dining."
+			}
+		},
+		"indian": {
+			"Nirmal\u00e2\u20ac\u2122s": {
+				"address": "106 Occidental Ave S, Seattle, WA 98104",
+				"hours": "11:30am - 10pm",
+				"link": "https://www.nirmalseattle.com/",
+				"description": "Upscale Indian restaurant known for modern takes on traditional dishes."
+			},
+			"Taste of India": {
+				"address": "5517 Roosevelt Way NE, Seattle, WA 98105",
+				"hours": "11am - 10pm",
+				"link": "https://www.tasteofindiaseattle.com/",
+				"description": "Casual spot serving classic Indian dishes, including vegetarian options."
+			},
+			"Kathakali": {
+				"address": "11451 Rainier Ave S, Seattle, WA 98178",
+				"hours": "12pm - 9pm",
+				"link": "https://www.kathakali-juanita.com/",
+				"description": "Authentic South Indian cuisine specializing in Kerala-style dishes."
+			}
+		},
+		"mediterranean": {
+			"Petra Bistro": {
+				"address": "2501 4th Ave, Seattle, WA 98121",
+				"hours": "11am - 10pm",
+				"link": "petrabistro.com",
+				"description": "Jordanian & Mediterranean cuisine with a warm, inviting atmosphere."
+			},
+			"Mamnoon": {
+				"address": "1508 Melrose Ave, Seattle, WA 98122",
+				"hours": "11am - 9pm",
+				"link": "mamnoonrestaurant.com",
+				"description": "Lebanese and Syrian-inspired dishes with a modern twist."
+			},
+			"Mediterranean Kitchen": {
+				"address": "103 Bellevue Way NE, Bellevue, WA 98004",
+				"hours": "11am - 10pm",
+				"link": "mediterraneankitchen.com",
+				"description": "Family-run restaurant known for generous portions and authentic flavors."
 			}
 		}
 	},
 	"entertainment": {
-		"catagory2": {
-			"location3": {
-				"address": "placeholder3",
-				"hours": "placeholder3",
-				"link": "placeholder3",
-				"description": "placeholder3"
+		"museums": {
+			"Museum of Pop Culture (MoPOP)": {
+				"address": "325 5th Ave N, Seattle, WA 98109",
+				"hours": "10am - 5pm",
+				"link": "mopop.org",
+				"description": "Interactive museum featuring music, sci-fi, and pop culture exhibits."
 			},
-			"location4": {
-				"address": "placeholder4",
-				"hours": "placeholder4",
-				"link": "placeholder4",
-				"description": "placeholder4"
+			"Seattle Art Museum (SAM)": {
+				"address": "1300 1st Ave, Seattle, WA 98101",
+				"hours": "10am - 5pm",
+				"link": "seattleartmuseum.org",
+				"description": "Premier art museum showcasing global and contemporary works."
+			},
+			"The Museum of Flight": {
+				"address": "9404 E Marginal Way S, Seattle, WA 98108",
+				"hours": "10am - 5pm",
+				"link": "museumofflight.org",
+				"description": "One of the largest air and space museums in the world."
 			}
 		},
-		"catagory3": {
-			"location5": {
-				"address": "placeholder5",
-				"hours": "placeholder5",
-				"link": "placeholder5",
-				"description": "placeholder5"
+		"parks": {
+			"Green Lake Park": {
+				"address": "7201 E Green Lake Dr N, Seattle, WA 98115",
+				"hours": "4am - 11:30pm",
+				"link": "https://visitseattle.org/things-to-do/outdoors/seattles-top-parks/",
+				"description": "A scenic park with a 2.8-mile trail around a beautiful lake, perfect for walking, biking, and picnics."
+			},
+			"Discovery Park": {
+				"address": "3801 Discovery Park Blvd, Seattle, WA 98199",
+				"hours": "4am - 11:30pm",
+				"link": "https://visitseattle.org/things-to-do/outdoors/seattles-top-parks/",
+				"description": "The largest city park in Seattle, featuring breathtaking views, hiking trails, and a historic lighthouse."
+			},
+			"Kerry Park": {
+				"address": "211 W Highland Dr, Seattle, WA 98119",
+				"hours": "Open 24 hours",
+				"link": "https://visitseattle.org/things-to-do/outdoors/seattles-top-parks/",
+				"description": "A small but famous viewpoint offering stunning panoramic views of the Seattle skyline."
+			}
+		},
+		"cultural landmarks": {
+			"Space Needle": {
+				"address": "400 Broad St, Seattle, WA 98109",
+				"hours": "9am - 10pm",
+				"link": "https://www.spaceneedle.com/",
+				"description": "One of Seattle's most iconic landmarks, offering breathtaking 360-degree views from the observation deck."
+			},
+			"Pike Place Market": {
+				"address": "85 Pike St, Seattle, WA 98101",
+				"hours": "9am - 6pm",
+				"link": "https://www.pikeplacemarket.org/",
+				"description": "A historic market famous for fresh seafood, artisan crafts, and the first Starbucks store."
+			},
+			"Snoqualmie": {
+				"address": "6501 Railroad Ave",
+				"hours": "Open 24hrs",
+				"link": "https://www.snoqualmiefalls.com/",
+				"description": "Snoqualmie Falls is a 268-foot waterfall located east of Seattle on the Snoqualmie River between Snoqualmie and Fall City, Washington"
+			}
+		},
+		"event venue": {
+			"Climate Pledge Arena": {
+				"address": "334 1st Ave N, Seattle, WA 98109",
+				"hours": "Varies by event",
+				"link": "https://www.climatepledgearena.com/",
+				"description": "Home to the Seattle Kraken, concerts, and major sports events, with a focus on sustainability."
+			},
+			"T-Mobile Park": {
+				"address": "1250 1st Ave S, Seattle, WA 98134",
+				"hours": "Varies by event",
+				"link": "https://www.mlb.com/mariners/ballpark",
+				"description": "Home to the Seattle Mariners, offering baseball games, concerts, and special events."
+			},
+			"Paramount Theatre": {
+				"address": "911 Pine St, Seattle, WA 98101",
+				"hours": "Varies by event",
+				"link": "https://www.stgpresents.org/",
+				"description": "A historic venue hosting Broadway shows, concerts, and performing arts events."
+			}
+		}
+	},
+	"shopping": {
+		"malls": {
+			"Westlake Center": {
+				"address": "400 Pine St, Seattle, WA 98101",
+				"hours": "10am - 8pm",
+				"link": "https://www.westlakecenter.com/en/",
+				"description": "A downtown shopping mall with a mix of fashion, food, and access to the Seattle Monorail."
+			},
+			"Northgate Station": {
+				"address": "401 NE Northgate Way, Seattle, WA 98125",
+				"hours": "10am - 9pm",
+				"link": "https://www.soundtransit.org/ride-with-us/stops-stations/northgate-station?route_tab=arrivals",
+				"description": "A shopping and dining destination with a mix of retail stores and restaurants."
+			},
+			"Pacific Place": {
+				"address": "600 Pine St, Seattle, WA 98101",
+				"hours": "11am - 7pm",
+				"link": "https://pacificplaceseattle.com/",
+				"description": "An upscale shopping mall featuring designer brands, dining, and a movie theater."
+			}
+		},
+		"farmer markets": {
+			"Ballard Farmers Market": {
+				"address": "5345 Ballard Ave NW, Seattle, WA 98107",
+				"hours": "Sundays: 9am - 2pm",
+				"link": "sfma.net",
+				"description": "Year-round farmers market featuring local produce, meats, and crafts."
+			},
+			"University District Farmers Market": {
+				"address": "5031 University Way NE, Seattle, WA 98105",
+				"hours": "Saturdays: 9am - 2pm",
+				"link": "seattlefarmersmarkets.org",
+				"description": "A vibrant farmers market with fresh produce, local goods, and live music."
 			}
 		}
 	}

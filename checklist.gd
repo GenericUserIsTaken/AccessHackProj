@@ -36,22 +36,26 @@ func rebuild_activities_list():
 			catagory.set_editable(0, true)
 			catagory.set_text(0, catagory_name.capitalize())
 			catagory.set_metadata(0, activity_name + "," + catagory_name)
+	
+	update_activity_pools()
 
 func _on_activities_list_item_edited() -> void:
-	
-	# rebuild a list of all chosen activities
-	Global.chosen_catagories.clear()
+	update_activity_pools()
+
+func update_activity_pools():
+	# build a list of all chosen activities
+	var chosen_catagories = []
 	
 	var tree_node = a_list.get_root().get_first_child()
 	while tree_node != null:
 		
 		if tree_node.is_checked(0):
 			var activity_as_string = tree_node.get_metadata(0)
-			Global.chosen_catagories.append(activity_as_string)
+			chosen_catagories.append(activity_as_string)
 		
 		tree_node = tree_node.get_next_in_tree()
 	
-	print("Global.chosen_catagories", Global.chosen_catagories)#TESTING
+	print("chosen_catagories", chosen_catagories)#TESTING
 	
 	# setup a dictionary of locations to choose from per activity
 	Global.activity_pools.clear()
@@ -59,7 +63,7 @@ func _on_activities_list_item_edited() -> void:
 		Global.activity_pools[activity] = []
 	
 	# read chosen catagories and load them into the pools to randomly pick from
-	for catagory_path in Global.chosen_catagories:
+	for catagory_path in chosen_catagories:
 		var catagory_path_array = catagory_path.split(",")
 		var activity = catagory_path_array[0]
 		var catagory = catagory_path_array[1]

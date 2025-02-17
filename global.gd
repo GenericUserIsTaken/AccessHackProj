@@ -9,8 +9,6 @@ var has_loaded_activities_json := false
 #         locations (restaurant1, park1)
 var activities = {}
 
-# the catagories the user wants the program to randomize from
-var chosen_catagories = []
 # groupings of locations from those catagories to shuffle from
 var activity_pools = {}
 

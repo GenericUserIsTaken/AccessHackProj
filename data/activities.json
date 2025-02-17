@@ -1,13 +1,13 @@
 {
 	"food": {
 		"catagory1": {
-			"name1": {
+			"location1": {
 				"address": "placeholder1",
 				"hours": "placeholder1",
 				"link": "placeholder1",
 				"description": "placeholder1"
 			},
-			"name2": {
+			"location2": {
 				"address": "placeholder2",
 				"hours": "placeholder2",
 				"link": "placeholder2",
@@ -17,13 +17,13 @@
 	},
 	"entertainment": {
 		"catagory2": {
-			"name3": {
+			"location3": {
 				"address": "placeholder3",
 				"hours": "placeholder3",
 				"link": "placeholder3",
 				"description": "placeholder3"
 			},
-			"name4": {
+			"location4": {
 				"address": "placeholder4",
 				"hours": "placeholder4",
 				"link": "placeholder4",
@@ -31,7 +31,7 @@
 			}
 		},
 		"catagory3": {
-			"name5": {
+			"location5": {
 				"address": "placeholder5",
 				"hours": "placeholder5",
 				"link": "placeholder5",

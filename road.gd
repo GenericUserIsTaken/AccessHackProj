@@ -1,16 +1,18 @@
 class_name road extends Node
 
 var positions = []
-var type 
+var type : Array[String] = []
+var typeStr : String = ""
 
-func addcoords(lat, lon):
-	var position = coordsToPosition(lat, lon)
-	positions[positions.size()] = position
+func addcoords(pos):
+	positions.append(pos *100 )
 
-func settype(rtype):
-	type = rtype
+func addtype(rtype):
+	type.append(rtype)
+	typeStr += rtype
 
-func coordsToPosition(lat, lon):
-	#TEMP, change depending on how coords translate to pos
-	var position = [lon, -lat]
-	return position
+func gettype():
+	return type
+	
+func containsType(x):
+	return typeStr.contains(x)

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c457d2ovn3h6f"]
 
-[ext_resource type="Script" path="res://Traindata.gd" id="1_tvk8a"]
+[ext_resource type="Script" path="res://TrainData.gd" id="1_tvk8a"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_tvk8a")

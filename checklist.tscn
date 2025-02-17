@@ -149,7 +149,7 @@ grow_vertical = 0
 text = "activities list"
 
 [node name="Control2" type="Control" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer"]
-custom_minimum_size = Vector2(0, 100)
+custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
 
 [node name="TempBg4" type="ColorRect" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2"]
@@ -181,9 +181,53 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+alignment = 1
 
-[node name="SpinBox" type="SpinBox" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer"]
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer"]
 layout_mode = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer2"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer2/HBoxContainer"]
+layout_mode = 2
+text = "testing"
+
+[node name="OptionButton" type="OptionButton" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer2/HBoxContainer"]
+layout_mode = 2
+alignment = 1
+selected = 0
+item_count = 7
+popup/item_0/text = "Monday"
+popup/item_1/text = "Tuesday"
+popup/item_1/id = 1
+popup/item_2/text = "Wednesday"
+popup/item_2/id = 2
+popup/item_3/text = "Thursday"
+popup/item_3/id = 3
+popup/item_4/text = "Friday"
+popup/item_4/id = 4
+popup/item_5/text = "Saturday"
+popup/item_5/id = 5
+popup/item_6/text = "Sunday"
+popup/item_6/id = 6
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 20
+
+[node name="SpinBox" type="SpinBox" parent="VBoxContainer/Control2/HSplitContainer/Control/VBoxContainer/Control2/HBoxContainer/MarginContainer"]
+layout_mode = 2
+min_value = 1.0
+max_value = 21.0
+value = 1.0
 alignment = 1
 suffix = " days"
 

@@ -21,6 +21,9 @@ func _on_http_request_request_completed(result, response_code, headers: PackedSt
 	print("httpcompeleted")
 	var response = body.get_string_from_utf8()
 	print(response)
+	var json = JSON.new()
+	print(json.parse_string(response))
+	var parsed = json.get_data()
 	
 	
 # Called when the HTTP request is completed.

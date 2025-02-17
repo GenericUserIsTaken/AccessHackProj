@@ -23,7 +23,7 @@ grow_vertical = 2
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
 
-[node name="ColorRect" type="ColorRect" parent="VBoxContainer/Control"]
+[node name="TempBg1" type="ColorRect" parent="VBoxContainer/Control"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -32,32 +32,47 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.603333, 0.3, 1, 1)
 
+[node name="Label" type="Label" parent="VBoxContainer/Control"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "project header"
+
 [node name="Control2" type="Control" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
 [node name="HSplitContainer" type="HSplitContainer" parent="VBoxContainer/Control2"]
+layout_direction = 3
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-split_offset = 500
+split_offset = 400
 
-[node name="Control" type="Control" parent="VBoxContainer/Control2/HSplitContainer"]
+[node name="Control2" type="Control" parent="VBoxContainer/Control2/HSplitContainer"]
+layout_direction = 2
 layout_mode = 2
 
-[node name="ColorRect" type="ColorRect" parent="VBoxContainer/Control2/HSplitContainer/Control"]
+[node name="TempBg3" type="ColorRect" parent="VBoxContainer/Control2/HSplitContainer/Control2"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.65, 1, 0.959167, 1)
+color = Color(1, 0.734833, 0.63, 1)
 
-[node name="ActivitiesList" type="Tree" parent="VBoxContainer/Control2/HSplitContainer/Control"]
+[node name="PlannedList" type="Tree" parent="VBoxContainer/Control2/HSplitContainer/Control2"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
@@ -65,25 +80,21 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+column_titles_visible = true
 hide_root = true
 select_mode = 1
 
-[node name="Control2" type="Control" parent="VBoxContainer/Control2/HSplitContainer"]
-layout_mode = 2
-
-[node name="ColorRect" type="ColorRect" parent="VBoxContainer/Control2/HSplitContainer/Control2"]
+[node name="Label" type="Label" parent="VBoxContainer/Control2/HSplitContainer/Control2"]
 layout_mode = 1
-anchors_preset = 15
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.65, 1, 0.830833, 1)
+offset_left = -1.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "planned list"
 
-[node name="ChosenList" type="Tree" parent="VBoxContainer/Control2/HSplitContainer/Control2"]
-unique_name_in_owner = true
-layout_mode = 0
-offset_right = 16.0
-offset_bottom = 17.0
-
-[connection signal="item_edited" from="VBoxContainer/Control2/HSplitContainer/Control/ActivitiesList" to="." method="_on_activities_list_item_edited"]
+[connection signal="column_title_clicked" from="VBoxContainer/Control2/HSplitContainer/Control2/PlannedList" to="." method="_on_planned_list_column_title_clicked"]

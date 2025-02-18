@@ -1,12 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://gwq8kblw4jo4"]
+[gd_scene load_steps=3 format=3 uid="uid://gwq8kblw4jo4"]
 
 [ext_resource type="PackedScene" uid="uid://bucrqt5wwg5gn" path="res://addons/map_tile_provider/examples/mosaic.tscn" id="1_ty4s5"]
-[ext_resource type="Texture2D" uid="uid://ba2pmb8kue8li" path="res://introimage.jpg" id="1_v2jkc"]
 [ext_resource type="PackedScene" uid="uid://bc2beq738m8ps" path="res://checklist.tscn" id="2_r1yg4"]
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_geuto"]
+[node name="ColorRect" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1456, 0.26, 0.246653, 1)
 
-[node name="Control" type="TabContainer"]
+[node name="Control" type="TabContainer" parent="."]
+layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -14,36 +20,31 @@ grow_horizontal = 2
 grow_vertical = 2
 current_tab = 0
 
-[node name="Control" type="Control" parent="."]
+[node name="Homepage" type="Control" parent="Control"]
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
-modulate = Color(0, 0, 0, 1)
-top_level = true
-layout_mode = 0
-offset_left = 4.0
-offset_top = 32.0
-offset_right = 1156.0
-offset_bottom = 361.0
-theme_override_font_sizes/bold_italics_font_size = 6
-theme_override_font_sizes/italics_font_size = 7
-theme_override_font_sizes/mono_font_size = 7
-theme_override_font_sizes/normal_font_size = 148
-theme_override_styles/normal = SubResource("StyleBoxTexture_geuto")
-text = "Sea-Sights Tour"
+[node name="CenterContainer" type="CenterContainer" parent="Control/Homepage"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
-[node name="Introimage" type="Sprite2D" parent="Control"]
-position = Vector2(829, 439)
-scale = Vector2(0.551333, 0.560116)
-texture = ExtResource("1_v2jkc")
+[node name="RichTextLabel" type="RichTextLabel" parent="Control/Homepage/CenterContainer"]
+custom_minimum_size = Vector2(1000, 0)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 200
+text = "Sea-Sights"
+fit_content = true
 
-[node name="mosaic" parent="." instance=ExtResource("1_ty4s5")]
+[node name="Map View" parent="Control" instance=ExtResource("1_ty4s5")]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
-[node name="CheckList" parent="." instance=ExtResource("2_r1yg4")]
+[node name="Scheduler" parent="Control" instance=ExtResource("2_r1yg4")]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2

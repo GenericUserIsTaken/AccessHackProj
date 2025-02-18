@@ -1,25 +1,24 @@
 extends Node2D
 
-
 signal zoom_changed(float)
 signal latitude_changed(float)
 signal longitude_changed(float)
 
-
 @export var latitude: float = 0.0:
 	set(val):
-		latitude = val
+		latitude = clamp(val,47.941306-2,47.941306+2)
 		latitude_changed.emit(val)
 		_update_visible_rect()
 
 @export var longitude: float = 0.0:
 	set(val):
-		longitude = val
+		longitude = clamp(val,-122.648796-2,-122.648796+2)#min,max
 		longitude_changed.emit(val)
 		_update_visible_rect()
 
 @export_range(1, 20) var zoom: float = 1:
 	set(val):
+		val=9
 		if val >= 1.0 and val < 21.0:
 			if int(zoom) != int(val):
 				var maximum = int(val)

@@ -13,45 +13,45 @@
   <node id="257739980" lat="47.5976613" lon="-122.3279622" version="8" timestamp="2019-10-08T02:57:49Z" changeset="75398360" uid="485808" user="Alexey Lukin" />
   <node id="257924264" lat="47.6007048" lon="-122.3287884" version="4" timestamp="2019-10-08T02:57:49Z" changeset="75398360" uid="485808" user="Alexey Lukin" />
   <node id="405102726" lat="47.4453482" lon="-122.2968266" version="20" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99903" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="SeaTac/Airport" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="64" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/seatac-airport-station" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99903" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="SeaTac/Airport" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="64" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/seatac-airport-station" />
   </node>
   <node id="405102735" lat="47.4458924" lon="-122.2968663" version="6" timestamp="2021-02-25T21:17:42Z" changeset="100004351" uid="10993864" user="MapperNews" />
   <node id="405102750" lat="47.4462296" lon="-122.2968928" version="2" timestamp="2015-03-16T01:08:25Z" changeset="29508068" uid="2601744" user="sctrojan79" />
   <node id="424232346" lat="47.6110135" lon="-122.3379069" version="5" timestamp="2015-09-28T07:42:18Z" changeset="34297687" uid="2601744" user="sctrojan79" />
   <node id="682816341" lat="47.4445351" lon="-122.2967695" version="5" timestamp="2016-09-12T03:18:16Z" changeset="42090823" uid="2601744" user="sctrojan79" />
   <node id="1582217590" lat="47.6190767" lon="-122.3201293" version="13" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Capitol Hill to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99603" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Capitol Hill" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="49" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/capitol-hill-station" />
+	<tag k="description" v="Capitol Hill to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99603" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Capitol Hill" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="49" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/capitol-hill-station" />
   </node>
   <node id="1582217598" lat="47.6133553" lon="-122.3269483" version="4" timestamp="2016-01-29T23:43:03Z" changeset="36890477" uid="2601744" user="sctrojan79" />
   <node id="1582217599" lat="47.6136502" lon="-122.3243845" version="4" timestamp="2016-01-29T23:43:03Z" changeset="36890477" uid="2601744" user="sctrojan79" />
@@ -62,24 +62,24 @@
   <node id="1582217613" lat="47.6334164" lon="-122.3106621" version="4" timestamp="2016-01-29T23:43:03Z" changeset="36890477" uid="2601744" user="sctrojan79" />
   <node id="1582217615" lat="47.6477781" lon="-122.3036204" version="6" timestamp="2018-07-18T04:37:44Z" changeset="60819504" uid="7572965" user="lasagna" />
   <node id="1582217618" lat="47.6498555" lon="-122.3036900" version="13" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Univ of Washington to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99605" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="University of Washington" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="official_name" v="Univ of Washington" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="48" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/university-washington-station" />
+	<tag k="description" v="Univ of Washington to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99605" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="University of Washington" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="official_name" v="Univ of Washington" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="48" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/university-washington-station" />
   </node>
   <node id="1694909272" lat="47.6385301" lon="-122.3066153" version="4" timestamp="2016-01-29T23:43:03Z" changeset="36890477" uid="2601744" user="sctrojan79" />
   <node id="1707760863" lat="47.6166841" lon="-122.3203266" version="3" timestamp="2016-01-29T23:43:03Z" changeset="36890477" uid="2601744" user="sctrojan79" />
@@ -88,10 +88,10 @@
   <node id="1707760888" lat="47.6169742" lon="-122.3202303" version="4" timestamp="2016-01-29T23:43:03Z" changeset="36890477" uid="2601744" user="sctrojan79" />
   <node id="1762831728" lat="47.4469522" lon="-122.2969961" version="3" timestamp="2021-02-25T21:17:42Z" changeset="100004351" uid="10993864" user="MapperNews" />
   <node id="1762831756" lat="47.4474102" lon="-122.2970235" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762831774" lat="47.4480107" lon="-122.2970265" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762831776" lat="47.4483691" lon="-122.2970167" version="2" timestamp="2016-02-13T22:17:24Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762831781" lat="47.4485059" lon="-122.2970188" version="2" timestamp="2016-02-13T22:17:24Z" changeset="37195479" uid="2601744" user="sctrojan79" />
@@ -145,10 +145,10 @@
   <node id="1762831982" lat="47.4634485" lon="-122.2864369" version="1" timestamp="2012-05-23T05:41:42Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762831983" lat="47.4634988" lon="-122.2832491" version="2" timestamp="2015-09-06T19:55:39Z" changeset="33840910" uid="2601744" user="sctrojan79" />
   <node id="1762831984" lat="47.4635062" lon="-122.2866236" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762831999" lat="47.4636827" lon="-122.2871148" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762832001" lat="47.4636710" lon="-122.2827278" version="2" timestamp="2015-09-06T19:55:39Z" changeset="33840910" uid="2601744" user="sctrojan79" />
   <node id="1762832005" lat="47.4637511" lon="-122.2925454" version="2" timestamp="2015-09-06T19:55:39Z" changeset="33840910" uid="2601744" user="sctrojan79" />
@@ -238,10 +238,10 @@
   <node id="1762832337" lat="47.4843808" lon="-122.2743215" version="2" timestamp="2021-03-07T17:59:26Z" changeset="100585664" uid="10993864" user="MapperNews" />
   <node id="1762832339" lat="47.4850396" lon="-122.2752580" version="2" timestamp="2021-03-07T17:59:26Z" changeset="100585664" uid="10993864" user="MapperNews" />
   <node id="1762832346" lat="47.4857012" lon="-122.2762123" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762832352" lat="47.4861323" lon="-122.2768277" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762832364" lat="47.4884493" lon="-122.2801510" version="2" timestamp="2021-03-07T17:59:26Z" changeset="100585664" uid="10993864" user="MapperNews" />
   <node id="1762832366" lat="47.4885987" lon="-122.2803593" version="2" timestamp="2021-03-07T17:59:26Z" changeset="100585664" uid="10993864" user="MapperNews" />
@@ -309,7 +309,7 @@
   <node id="1762832663" lat="47.5113692" lon="-122.2785060" version="1" timestamp="2012-05-23T05:41:52Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762832668" lat="47.5120633" lon="-122.2785909" version="2" timestamp="2021-03-09T14:02:06Z" changeset="100716008" uid="10993864" user="MapperNews" />
   <node id="1762832673" lat="47.5132771" lon="-122.2787699" version="3" timestamp="2024-08-08T23:30:55Z" changeset="155000561" uid="20748501" user="nickswalker">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="1762832693" lat="47.5135883" lon="-122.2788064" version="4" timestamp="2016-02-13T22:54:03Z" changeset="37195901" uid="2601744" user="sctrojan79" />
   <node id="1762832700" lat="47.5137992" lon="-122.2788222" version="2" timestamp="2016-02-13T22:54:03Z" changeset="37195901" uid="2601744" user="sctrojan79" />
@@ -319,13 +319,13 @@
   <node id="1762832713" lat="47.5158638" lon="-122.2790512" version="2" timestamp="2016-02-13T22:54:03Z" changeset="37195901" uid="2601744" user="sctrojan79" />
   <node id="1762832720" lat="47.5167578" lon="-122.2792334" version="2" timestamp="2016-02-13T22:54:03Z" changeset="37195901" uid="2601744" user="sctrojan79" />
   <node id="1762832724" lat="47.5172461" lon="-122.2793451" version="6" timestamp="2023-07-24T22:17:49Z" changeset="138960811" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832726" lat="47.5175477" lon="-122.2794160" version="2" timestamp="2016-02-13T22:54:04Z" changeset="37195901" uid="2601744" user="sctrojan79" />
   <node id="1762832730" lat="47.5182408" lon="-122.2795687" version="2" timestamp="2014-06-11T16:46:59Z" changeset="22875097" uid="1751737" user="Skybunny" />
   <node id="1762832731" lat="47.5182707" lon="-122.2795789" version="4" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762832735" lat="47.5187711" lon="-122.2796807" version="2" timestamp="2014-06-11T16:46:59Z" changeset="22875097" uid="1751737" user="Skybunny" />
   <node id="1762832761" lat="47.5193523" lon="-122.2798077" version="1" timestamp="2012-05-23T05:41:54Z" changeset="11677766" uid="14351" user="WBSKI" />
@@ -334,12 +334,12 @@
   <node id="1762832777" lat="47.5203649" lon="-122.2798464" version="2" timestamp="2021-03-09T14:02:06Z" changeset="100716008" uid="10993864" user="MapperNews" />
   <node id="1762832782" lat="47.5207996" lon="-122.2797719" version="2" timestamp="2021-03-09T14:02:06Z" changeset="100716008" uid="10993864" user="MapperNews" />
   <node id="1762832806" lat="47.5232567" lon="-122.2791160" version="6" timestamp="2023-01-19T20:23:14Z" changeset="131481539" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832811" lat="47.5241644" lon="-122.2788679" version="5" timestamp="2023-07-17T00:24:37Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="1762832821" lat="47.5244111" lon="-122.2788126" version="2" timestamp="2016-02-13T22:17:25Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762832824" lat="47.5246598" lon="-122.2787844" version="2" timestamp="2016-02-13T22:17:25Z" changeset="37195479" uid="2601744" user="sctrojan79" />
@@ -349,8 +349,8 @@
   <node id="1762832840" lat="47.5256486" lon="-122.2789423" version="2" timestamp="2016-02-13T22:17:25Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762832843" lat="47.5258875" lon="-122.2790485" version="2" timestamp="2016-02-13T22:17:25Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762832849" lat="47.5261231" lon="-122.2791640" version="7" timestamp="2023-07-17T00:24:47Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832851" lat="47.5265917" lon="-122.2793992" version="1" timestamp="2012-05-23T05:41:55Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762832856" lat="47.5273629" lon="-122.2797953" version="1" timestamp="2012-05-23T05:41:55Z" changeset="11677766" uid="14351" user="WBSKI" />
@@ -364,63 +364,63 @@
   <node id="1762832898" lat="47.5304185" lon="-122.2806518" version="1" timestamp="2012-05-23T05:41:56Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762832900" lat="47.5307958" lon="-122.2806641" version="1" timestamp="2012-05-23T05:41:56Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762832902" lat="47.5315353" lon="-122.2806770" version="7" timestamp="2023-07-17T00:26:13Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832906" lat="47.5334692" lon="-122.2807108" version="5" timestamp="2023-07-30T22:27:01Z" changeset="139228389" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="1762832912" lat="47.5353271" lon="-122.2807444" version="4" timestamp="2017-08-01T00:18:24Z" changeset="50735916" uid="2601744" user="sctrojan79">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:bell" v="yes" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:bell" v="yes" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832917" lat="47.5358266" lon="-122.2807540" version="2" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762832919" lat="47.5361389" lon="-122.2807791" version="2" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762832940" lat="47.5365515" lon="-122.2808671" version="2" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762832944" lat="47.5368559" lon="-122.2809735" version="2" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762832946" lat="47.5370554" lon="-122.2810630" version="7" timestamp="2023-01-19T20:23:06Z" changeset="131481539" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832952" lat="47.5380005" lon="-122.2815569" version="10" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Othello to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="55656" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Othello" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="60" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/othello-station" />
+	<tag k="description" v="Othello to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="55656" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Othello" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="60" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/othello-station" />
   </node>
   <node id="1762832961" lat="47.5388964" lon="-122.2820098" version="4" timestamp="2015-03-16T00:07:05Z" changeset="29507558" uid="2601744" user="sctrojan79">
-    <tag k="railway" v="level_crossing" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832968" lat="47.5394953" lon="-122.2823179" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
   <node id="1762832974" lat="47.5404313" lon="-122.2827982" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
   <node id="1762832977" lat="47.5411676" lon="-122.2831709" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
   <node id="1762832981" lat="47.5419164" lon="-122.2835308" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
   <node id="1762832987" lat="47.5424758" lon="-122.2838005" version="6" timestamp="2021-01-05T07:39:21Z" changeset="96958227" uid="12430719" user="Captain Taihu">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762832993" lat="47.5430142" lon="-122.2840611" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
   <node id="1762833000" lat="47.5436554" lon="-122.2843717" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
   <node id="1762833013" lat="47.5453500" lon="-122.2851895" version="1" timestamp="2012-05-23T05:41:58Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833016" lat="47.5460848" lon="-122.2855453" version="6" timestamp="2021-01-05T07:39:25Z" changeset="96958227" uid="12430719" user="Captain Taihu">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833023" lat="47.5466652" lon="-122.2858491" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
   <node id="1762833026" lat="47.5470631" lon="-122.2860389" version="2" timestamp="2015-05-04T04:45:10Z" changeset="30766774" uid="2601744" user="sctrojan79" />
@@ -429,15 +429,15 @@
   <node id="1762833033" lat="47.5495049" lon="-122.2872096" version="1" timestamp="2012-05-23T05:41:58Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833035" lat="47.5506508" lon="-122.2877653" version="1" timestamp="2012-05-23T05:41:58Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833041" lat="47.5512238" lon="-122.2880423" version="5" timestamp="2023-10-24T13:59:16Z" changeset="143067097" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="maxheight" v="default" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="maxheight" v="default" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833043" lat="47.5520594" lon="-122.2884462" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833047" lat="47.5528105" lon="-122.2888092" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833060" lat="47.5543466" lon="-122.2895415" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833063" lat="47.5552095" lon="-122.2899257" version="6" timestamp="2021-10-25T20:47:37Z" changeset="112966766" uid="11517143" user="austinsnow">
-    <tag k="railway" v="level_crossing" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833073" lat="47.5557769" lon="-122.2901947" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833076" lat="47.5561521" lon="-122.2904179" version="1" timestamp="2012-05-23T05:41:59Z" changeset="11677766" uid="14351" user="WBSKI" />
@@ -446,50 +446,50 @@
   <node id="1762833089" lat="47.5577860" lon="-122.2914375" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833093" lat="47.5585306" lon="-122.2919070" version="1" timestamp="2012-05-23T05:41:59Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833099" lat="47.5597432" lon="-122.2926763" version="12" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Columbia City to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="55778" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Columbia City" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="58" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/columbia-city-station" />
+	<tag k="description" v="Columbia City to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="55778" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Columbia City" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="58" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/columbia-city-station" />
   </node>
   <node id="1762833120" lat="47.5608209" lon="-122.2933590" version="8" timestamp="2025-01-18T23:40:28Z" changeset="161509296" uid="21982638" user="pwbriggs">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:bell" v="yes" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:bell" v="yes" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833125" lat="47.5616712" lon="-122.2938934" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833135" lat="47.5628009" lon="-122.2946073" version="5" timestamp="2024-02-24T18:29:34Z" changeset="147866369" uid="3594360" user="kosmer">
-    <tag k="check_date:crossing:barrier" v="2024-02-24" />
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="railway" v="level_crossing" />
-    <tag k="supervised" v="no" />
+	<tag k="check_date:crossing:barrier" v="2024-02-24" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="railway" v="level_crossing" />
+	<tag k="supervised" v="no" />
   </node>
   <node id="1762833139" lat="47.5628961" lon="-122.2946700" version="6" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="railway" v="level_crossing" />
-    <tag k="supervised" v="no" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="railway" v="level_crossing" />
+	<tag k="supervised" v="no" />
   </node>
   <node id="1762833143" lat="47.5638704" lon="-122.2952872" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833145" lat="47.5650119" lon="-122.2960120" version="2" timestamp="2015-05-04T03:40:45Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="1762833150" lat="47.5658586" lon="-122.2965453" version="3" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762833153" lat="47.5660562" lon="-122.2966565" version="3" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762833162" lat="47.5662829" lon="-122.2967580" version="6" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="level_crossing" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833189" lat="47.5665521" lon="-122.2968454" version="3" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1762833190" lat="47.5667323" lon="-122.2968844" version="3" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
@@ -501,8 +501,8 @@
   <node id="1762833205" lat="47.5700053" lon="-122.2968591" version="1" timestamp="2012-05-23T05:42:01Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833208" lat="47.5709644" lon="-122.2968683" version="1" timestamp="2012-05-23T05:42:01Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833216" lat="47.5719549" lon="-122.2968519" version="8" timestamp="2021-12-12T07:51:17Z" changeset="114838326" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833220" lat="47.5727951" lon="-122.2968438" version="2" timestamp="2015-03-15T23:34:51Z" changeset="29507233" uid="2601744" user="sctrojan79" />
   <node id="1762833223" lat="47.5749500" lon="-122.2968065" version="3" timestamp="2015-09-19T22:48:52Z" changeset="34130923" uid="2601744" user="sctrojan79" />
@@ -520,22 +520,22 @@
   <node id="1762833325" lat="47.5774964" lon="-122.3204189" version="3" timestamp="2021-03-06T18:51:59Z" changeset="100549606" uid="10993864" user="MapperNews" />
   <node id="1762833326" lat="47.5774960" lon="-122.3218369" version="1" timestamp="2012-05-23T05:42:03Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833328" lat="47.5774972" lon="-122.3221682" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762833330" lat="47.5774986" lon="-122.3235882" version="2" timestamp="2021-03-06T18:51:59Z" changeset="100549606" uid="10993864" user="MapperNews" />
   <node id="1762833334" lat="47.5774987" lon="-122.3235917" version="2" timestamp="2021-03-06T18:51:59Z" changeset="100549606" uid="10993864" user="MapperNews" />
   <node id="1762833361" lat="47.5775017" lon="-122.3238193" version="2" timestamp="2021-03-06T18:51:59Z" changeset="100549606" uid="10993864" user="MapperNews" />
   <node id="1762833368" lat="47.5775236" lon="-122.3242249" version="2" timestamp="2021-03-06T18:51:59Z" changeset="100549606" uid="10993864" user="MapperNews" />
   <node id="1762833381" lat="47.5775793" lon="-122.3250275" version="2" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762833385" lat="47.5774643" lon="-122.2983891" version="3" timestamp="2015-09-19T22:48:53Z" changeset="34130923" uid="2601744" user="sctrojan79" />
   <node id="1762833390" lat="47.5776013" lon="-122.3253483" version="2" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762833428" lat="47.5776258" lon="-122.3257084" version="1" timestamp="2012-05-23T05:42:05Z" changeset="11677766" uid="14351" user="WBSKI" />
   <node id="1762833436" lat="47.5776502" lon="-122.3260973" version="3" timestamp="2021-03-12T17:12:08Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762833438" lat="47.5776720" lon="-122.3263917" version="2" timestamp="2021-03-06T20:46:05Z" changeset="100553254" uid="10993864" user="MapperNews" />
   <node id="1762833442" lat="47.5776955" lon="-122.3265789" version="2" timestamp="2021-03-06T20:46:05Z" changeset="100553254" uid="10993864" user="MapperNews" />
@@ -557,27 +557,27 @@
   <node id="1762833526" lat="47.5784972" lon="-122.3273751" version="3" timestamp="2021-03-06T20:46:05Z" changeset="100553254" uid="10993864" user="MapperNews" />
   <node id="1762833548" lat="47.5791109" lon="-122.3273769" version="3" timestamp="2021-03-06T18:51:59Z" changeset="100549606" uid="10993864" user="MapperNews" />
   <node id="1762833562" lat="47.5798040" lon="-122.3273770" version="9" timestamp="2024-08-30T21:04:17Z" changeset="155992111" uid="20996589" user="Lumikeiju">
-    <tag k="crossing:barrier" v="half" />
-    <tag k="crossing:bell" v="yes" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="crossing:saltire" v="yes" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:phone" v="+1-206-398-5268" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="half" />
+	<tag k="crossing:bell" v="yes" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="crossing:saltire" v="yes" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:phone" v="+1-206-398-5268" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833598" lat="47.5834401" lon="-122.3273739" version="2" timestamp="2021-03-06T20:46:05Z" changeset="100553254" uid="10993864" user="MapperNews" />
   <node id="1762833606" lat="47.5846886" lon="-122.3273735" version="3" timestamp="2021-03-06T20:46:05Z" changeset="100553254" uid="10993864" user="MapperNews" />
   <node id="1762833616" lat="47.5861487" lon="-122.3273744" version="7" timestamp="2024-09-01T02:57:14Z" changeset="156037544" uid="10350264" user="UW Maddie">
-    <tag k="crossing" v="traffic_signals" />
-    <tag k="crossing:barrier" v="half" />
-    <tag k="crossing:signals" v="yes" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing" v="traffic_signals" />
+	<tag k="crossing:barrier" v="half" />
+	<tag k="crossing:signals" v="yes" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833639" lat="47.5874760" lon="-122.3273683" version="4" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762833663" lat="47.5880055" lon="-122.3273702" version="3" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews" />
   <node id="1762833670" lat="47.5881997" lon="-122.3273580" version="3" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews" />
@@ -590,94 +590,94 @@
   <node id="1762833730" lat="47.5893798" lon="-122.3271121" version="3" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews" />
   <node id="1762833739" lat="47.5894491" lon="-122.3271090" version="3" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews" />
   <node id="1762833785" lat="47.5903956" lon="-122.3271081" version="4" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="1762833791" lat="47.5911117" lon="-122.3271082" version="11" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Stadium to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99260" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Stadium" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="54" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/stadium-station" />
+	<tag k="description" v="Stadium to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99260" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Stadium" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="54" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/stadium-station" />
   </node>
   <node id="1762833804" lat="47.5921353" lon="-122.3271044" version="2" timestamp="2019-12-26T03:19:32Z" changeset="78861450" uid="567792" user="Natfoot" />
   <node id="1762833810" lat="47.5924032" lon="-122.3271081" version="8" timestamp="2024-09-01T02:57:14Z" changeset="156037544" uid="10350264" user="UW Maddie">
-    <tag k="crossing" v="traffic_signals" />
-    <tag k="crossing:barrier" v="full" />
-    <tag k="crossing:signals" v="yes" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing" v="traffic_signals" />
+	<tag k="crossing:barrier" v="full" />
+	<tag k="crossing:signals" v="yes" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="1762833819" lat="47.5925611" lon="-122.3271058" version="2" timestamp="2019-12-26T03:19:32Z" changeset="78861450" uid="567792" user="Natfoot" />
   <node id="1768008155" lat="47.4608818" lon="-122.2962264" version="1" timestamp="2012-05-27T19:58:06Z" changeset="11719414" uid="282329" user="compdude" />
   <node id="1768008161" lat="47.4519794" lon="-122.3001860" version="2" timestamp="2016-02-13T22:17:26Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="1961277147" lat="47.5765742" lon="-122.2976686" version="15" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Mount Baker to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="55860" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Mount Baker" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="57" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/mount-baker-station-transit-center" />
+	<tag k="description" v="Mount Baker to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="55860" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Mount Baker" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="57" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/mount-baker-station-transit-center" />
   </node>
   <node id="1961285641" lat="47.5224288" lon="-122.2793377" version="10" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Rainier Beach to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="55578" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Rainier Beach" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="61" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/rainier-beach-station" />
+	<tag k="description" v="Rainier Beach to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="55578" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Rainier Beach" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="61" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/rainier-beach-station" />
   </node>
   <node id="1961290412" lat="47.4639830" lon="-122.2879346" version="9" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Tukwila Int'l Blvd to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99905" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Tukwila International Boulevard" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="official_name" v="Tukwila Int'l Blvd" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="63" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/tukwila-international-boulevard-station" />
+	<tag k="description" v="Tukwila Int'l Blvd to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99905" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Tukwila International Boulevard" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="official_name" v="Tukwila Int'l Blvd" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="63" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/tukwila-international-boulevard-station" />
   </node>
   <node id="2465990818" lat="47.5956093" lon="-122.3281326" version="4" timestamp="2021-03-04T17:42:48Z" changeset="100438076" uid="10993864" user="MapperNews" />
   <node id="2465990819" lat="47.5953825" lon="-122.3280720" version="4" timestamp="2021-03-04T17:42:48Z" changeset="100438076" uid="10993864" user="MapperNews" />
@@ -685,70 +685,70 @@
   <node id="2465990821" lat="47.5952864" lon="-122.3280388" version="3" timestamp="2020-12-09T15:54:12Z" changeset="95563650" uid="10993864" user="MapperNews" />
   <node id="2465990822" lat="47.5927120" lon="-122.3271094" version="3" timestamp="2019-12-26T03:19:32Z" changeset="78861450" uid="567792" user="Natfoot" />
   <node id="2472433234" lat="47.5387679" lon="-122.2819449" version="5" timestamp="2020-05-31T14:31:25Z" changeset="86010702" uid="10731609" user="KiloCrimson">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472433251" lat="47.5372375" lon="-122.2811528" version="6" timestamp="2022-03-01T09:33:35Z" changeset="117971983" uid="11390451" user="markkerrigan">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472433273" lat="47.5298239" lon="-122.2806423" version="7" timestamp="2023-07-17T00:26:15Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472433292" lat="47.5277745" lon="-122.2800012" version="5" timestamp="2023-01-19T20:23:12Z" changeset="131481539" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472438320" lat="47.5170257" lon="-122.2792940" version="5" timestamp="2023-07-24T22:17:51Z" changeset="138960811" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="2472440010" lat="47.5398596" lon="-122.2825074" version="3" timestamp="2021-03-12T17:12:09Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="2472440018" lat="47.5407634" lon="-122.2829727" version="5" timestamp="2024-02-24T18:25:28Z" changeset="147866369" uid="3594360" user="kosmer">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472440593" lat="47.5417511" lon="-122.2834544" version="2" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="2472441664" lat="47.5444336" lon="-122.2847459" version="5" timestamp="2024-02-24T18:25:55Z" changeset="147866369" uid="3594360" user="kosmer">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472442381" lat="47.5480890" lon="-122.2865288" version="4" timestamp="2016-12-15T12:37:11Z" changeset="44422462" uid="135163" user="MikeN">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472443169" lat="47.5568879" lon="-122.2908739" version="5" timestamp="2023-09-05T00:50:44Z" changeset="140827021" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472443173" lat="47.5587938" lon="-122.2920757" version="7" timestamp="2023-01-29T06:57:35Z" changeset="131830361" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472444173" lat="47.5606836" lon="-122.2932700" version="8" timestamp="2025-01-18T23:40:28Z" changeset="161509296" uid="21982638" user="pwbriggs">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:bell" v="yes" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:bell" v="yes" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2472445909" lat="47.5637501" lon="-122.2952137" version="5" timestamp="2023-01-29T06:58:15Z" changeset="131830361" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="2504653164" lat="47.5774598" lon="-122.3197972" version="3" timestamp="2021-03-06T18:51:59Z" changeset="100549606" uid="10993864" user="MapperNews" />
   <node id="2504655676" lat="47.5688183" lon="-122.2968507" version="2" timestamp="2015-05-04T03:59:21Z" changeset="30766311" uid="2601744" user="sctrojan79">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="2504655681" lat="47.5701650" lon="-122.2968606" version="2" timestamp="2015-05-04T03:59:21Z" changeset="30766311" uid="2601744" user="sctrojan79">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="2504656994" lat="47.5534537" lon="-122.2891191" version="4" timestamp="2023-10-24T14:00:10Z" changeset="143067097" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="maxheight" v="default" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="maxheight" v="default" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="2511124283" lat="47.6505358" lon="-122.3037100" version="7" timestamp="2018-07-18T07:20:26Z" changeset="60823936" uid="7572965" user="lasagna" />
   <node id="2514204112" lat="47.6134478" lon="-122.3280962" version="3" timestamp="2016-01-29T23:43:03Z" changeset="36890477" uid="2601744" user="sctrojan79" />
@@ -770,22 +770,22 @@
   <node id="2672435382" lat="47.6585480" lon="-122.3137770" version="3" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="2672435383" lat="47.6593030" lon="-122.3140600" version="3" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="2672435384" lat="47.6604924" lon="-122.3140450" version="8" timestamp="2024-08-31T11:27:17Z" changeset="156010502" uid="9159276" user="OrdinaryScarlett">
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="990002" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="U District" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="47" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/u-district-station" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="990002" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="U District" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="47" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/u-district-station" />
   </node>
   <node id="2672435385" lat="47.6645900" lon="-122.3141350" version="3" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="2672435386" lat="47.6758490" lon="-122.3158750" version="3" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
@@ -801,8 +801,8 @@
   <node id="2672435916" lat="47.7054033" lon="-122.3283847" version="7" timestamp="2021-02-27T09:25:55Z" changeset="100088543" uid="10993864" user="MapperNews" />
   <node id="2778506050" lat="47.6070853" lon="-122.3352231" version="3" timestamp="2017-01-20T20:46:23Z" changeset="45337689" uid="2601744" user="sctrojan79" />
   <node id="3221180925" lat="47.5351855" lon="-122.2807417" version="3" timestamp="2023-07-30T22:27:02Z" changeset="139228389" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="3382269023" lat="47.6019457" lon="-122.3305337" version="3" timestamp="2015-09-28T07:42:18Z" changeset="34297687" uid="2601744" user="sctrojan79" />
   <node id="3382269025" lat="47.6033292" lon="-122.3318107" version="3" timestamp="2015-09-28T07:42:18Z" changeset="34297687" uid="2601744" user="sctrojan79" />
@@ -810,101 +810,101 @@
   <node id="3382269027" lat="47.6081505" lon="-122.3361935" version="3" timestamp="2015-09-28T07:42:18Z" changeset="34297687" uid="2601744" user="sctrojan79" />
   <node id="3382269028" lat="47.6108965" lon="-122.3381021" version="3" timestamp="2015-09-28T07:42:18Z" changeset="34297687" uid="2601744" user="sctrojan79" />
   <node id="3400988236" lat="47.5586830" lon="-122.2920060" version="5" timestamp="2023-01-19T20:22:56Z" changeset="131481539" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="3401098169" lat="47.4466421" lon="-122.2969526" version="1" timestamp="2015-03-16T01:08:21Z" changeset="29508068" uid="2601744" user="sctrojan79" />
   <node id="3401118428" lat="47.5812606" lon="-122.3273765" version="9" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="SODO to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99256" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="SODO" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="55" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/sodo-station" />
+	<tag k="description" v="SODO to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99256" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="SODO" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="55" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/sodo-station" />
   </node>
   <node id="3401118432" lat="47.5807025" lon="-122.3273768" version="2" timestamp="2021-03-06T20:46:05Z" changeset="100553254" uid="10993864" user="MapperNews" />
   <node id="3401118436" lat="47.5818178" lon="-122.3273755" version="2" timestamp="2021-03-06T20:46:05Z" changeset="100553254" uid="10993864" user="MapperNews" />
   <node id="3401120627" lat="47.5905173" lon="-122.3271076" version="1" timestamp="2015-03-16T01:36:12Z" changeset="29508314" uid="2601744" user="sctrojan79" />
   <node id="3401120629" lat="47.5917039" lon="-122.3271056" version="2" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews" />
   <node id="3401121107" lat="47.5984484" lon="-122.3279570" version="20" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Int'l Dist/Chinatown to Northgate" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="621" />
-    <tag k="light_rail" v="yes" />
-    <tag k="location" v="underground" />
-    <tag k="name" v="International District Chinatown" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="note" v="This stop's actual name does list &quot;Chinatown&quot; second (even though nearby neighborhood official name is reversed)" />
-    <tag k="official_name" v="Int'l Dist/Chinatown" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="53" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/international-district-chinatown-station" />
+	<tag k="description" v="Int'l Dist/Chinatown to Northgate" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="621" />
+	<tag k="light_rail" v="yes" />
+	<tag k="location" v="underground" />
+	<tag k="name" v="International District Chinatown" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="note" v="This stop's actual name does list &quot;Chinatown&quot; second (even though nearby neighborhood official name is reversed)" />
+	<tag k="official_name" v="Int'l Dist/Chinatown" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="53" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/international-district-chinatown-station" />
   </node>
   <node id="3401124594" lat="47.6031655" lon="-122.3316621" version="14" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Pioneer Square to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="532" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Pioneer Square" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="52" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/pioneer-square-station" />
+	<tag k="description" v="Pioneer Square to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="532" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Pioneer Square" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="52" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/pioneer-square-station" />
   </node>
   <node id="3401126458" lat="47.6082114" lon="-122.3362490" version="15" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Symphony to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="565" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Symphony" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="old_name" v="University Street" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="51" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/symphony-station" />
+	<tag k="description" v="Symphony to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="565" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Symphony" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="old_name" v="University Street" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="51" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/symphony-station" />
   </node>
   <node id="3401130050" lat="47.5588107" lon="-122.2920855" version="2" timestamp="2015-05-04T03:40:47Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="3401130051" lat="47.5606690" lon="-122.2932617" version="2" timestamp="2015-05-04T03:40:47Z" changeset="30766126" uid="2601744" user="sctrojan79" />
   <node id="3401134287" lat="47.5372560" lon="-122.2811626" version="1" timestamp="2015-03-16T02:10:03Z" changeset="29508618" uid="2601744" user="sctrojan79" />
   <node id="3401134292" lat="47.5387483" lon="-122.2819350" version="1" timestamp="2015-03-16T02:10:03Z" changeset="29508618" uid="2601744" user="sctrojan79" />
   <node id="3401135770" lat="47.5217444" lon="-122.2795200" version="2" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="3401135774" lat="47.5230834" lon="-122.2791628" version="1" timestamp="2015-03-16T02:14:53Z" changeset="29508653" uid="2601744" user="sctrojan79" />
   <node id="3496250106" lat="47.5523427" lon="-122.2885828" version="1" timestamp="2015-05-04T03:40:28Z" changeset="30766126" uid="2601744" user="sctrojan79" />
@@ -968,23 +968,23 @@
   <node id="3750929626" lat="47.6455853" lon="-122.3037912" version="3" timestamp="2016-01-29T23:43:05Z" changeset="36890477" uid="2601744" user="sctrojan79" />
   <node id="3750929628" lat="47.6465888" lon="-122.3036604" version="3" timestamp="2016-01-29T23:43:05Z" changeset="36890477" uid="2601744" user="sctrojan79" />
   <node id="3750983093" lat="47.5794450" lon="-122.3119085" version="7" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Beacon Hill to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99240" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Beacon Hill" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="56" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/beacon-hill-station" />
+	<tag k="description" v="Beacon Hill to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99240" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Beacon Hill" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="56" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/beacon-hill-station" />
   </node>
   <node id="3750983098" lat="47.5773159" lon="-122.3181145" version="2" timestamp="2015-09-25T17:36:07Z" changeset="34249034" uid="2601744" user="sctrojan79" />
   <node id="3750983099" lat="47.5773257" lon="-122.3177958" version="2" timestamp="2015-09-25T17:36:07Z" changeset="34249034" uid="2601744" user="sctrojan79" />
@@ -1065,23 +1065,23 @@
   <node id="3751030703" lat="47.7010290" lon="-122.3283540" version="4" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="3759166590" lat="47.5798535" lon="-122.3105812" version="1" timestamp="2015-09-25T17:36:02Z" changeset="34249034" uid="2601744" user="sctrojan79" />
   <node id="3762229908" lat="47.6118583" lon="-122.3358758" version="11" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Westlake to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="1121" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Westlake" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="50" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/westlake-station" />
+	<tag k="description" v="Westlake to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="1121" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Westlake" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="50" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/westlake-station" />
   </node>
   <node id="3762229910" lat="47.5928089" lon="-122.3271153" version="3" timestamp="2020-12-11T13:04:56Z" changeset="95683154" uid="10993864" user="MapperNews" />
   <node id="3762229912" lat="47.5929269" lon="-122.3271291" version="2" timestamp="2020-12-11T13:04:56Z" changeset="95683154" uid="10993864" user="MapperNews" />
@@ -1115,28 +1115,28 @@
   <node id="3762230431" lat="47.6120562" lon="-122.3354048" version="2" timestamp="2024-05-08T04:15:24Z" changeset="151035707" uid="485808" user="Alexey Lukin" />
   <node id="3762230437" lat="47.6128306" lon="-122.3336823" version="7" timestamp="2024-05-08T04:15:24Z" changeset="151035707" uid="485808" user="Alexey Lukin" />
   <node id="3786352394" lat="47.5800138" lon="-122.3273773" version="5" timestamp="2024-08-30T21:04:17Z" changeset="155992111" uid="20996589" user="Lumikeiju">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:bell" v="yes" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="crossing:saltire" v="yes" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:phone" v="+1-206-398-5268" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:bell" v="yes" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="crossing:saltire" v="yes" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:phone" v="+1-206-398-5268" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="3786352404" lat="47.5796260" lon="-122.3273760" version="6" timestamp="2024-08-30T21:04:17Z" changeset="155992111" uid="20996589" user="Lumikeiju">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:bell" v="yes" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="crossing:saltire" v="yes" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:phone" v="+1-206-398-5268" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:bell" v="yes" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="crossing:saltire" v="yes" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:phone" v="+1-206-398-5268" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="3835317537" lat="47.7058349" lon="-122.3285558" version="5" timestamp="2021-02-26T10:22:07Z" changeset="100041253" uid="10993864" user="MapperNews" />
   <node id="3835317539" lat="47.7068024" lon="-122.3289300" version="4" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
@@ -1162,23 +1162,23 @@
   <node id="3835317973" lat="47.7339671" lon="-122.3239193" version="5" timestamp="2024-04-07T22:34:30Z" changeset="149712257" uid="1207140" user="tonbach" />
   <node id="3835317974" lat="47.7355998" lon="-122.3248574" version="6" timestamp="2024-08-17T18:01:52Z" changeset="155383643" uid="20996589" user="Lumikeiju" />
   <node id="3835317975" lat="47.7361086" lon="-122.3251802" version="9" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Shoreline South to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="N15-T1" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Shoreline South/148th" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="43" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/shoreline-south-148th-station" />
+	<tag k="description" v="Shoreline South to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="N15-T1" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Shoreline South/148th" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="43" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/shoreline-south-148th-station" />
   </node>
   <node id="3835317976" lat="47.7379818" lon="-122.3264413" version="3" timestamp="2024-04-13T17:31:15Z" changeset="149962249" uid="1207140" user="tonbach" />
   <node id="3835317977" lat="47.7385247" lon="-122.3267964" version="2" timestamp="2024-04-13T17:31:15Z" changeset="149962249" uid="1207140" user="tonbach" />
@@ -1249,7 +1249,7 @@
   <node id="3977138158" lat="47.6471395" lon="-122.3036169" version="1" timestamp="2016-01-29T23:42:58Z" changeset="36890477" uid="2601744" user="sctrojan79" />
   <node id="3977138161" lat="47.6483702" lon="-122.3036480" version="2" timestamp="2018-07-18T04:37:45Z" changeset="60819504" uid="7572965" user="lasagna" />
   <node id="3977138163" lat="47.6486259" lon="-122.3036542" version="3" timestamp="2018-07-18T04:42:30Z" changeset="60819585" uid="7572965" user="lasagna">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="4004792655" lat="47.4486157" lon="-122.2970240" version="1" timestamp="2016-02-13T22:17:08Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="4004792657" lat="47.4488253" lon="-122.2970528" version="1" timestamp="2016-02-13T22:17:08Z" changeset="37195479" uid="2601744" user="sctrojan79" />
@@ -1382,7 +1382,7 @@
   <node id="4004799422" lat="47.5675622" lon="-122.2968970" version="1" timestamp="2016-02-13T22:17:14Z" changeset="37195479" uid="2601744" user="sctrojan79" />
   <node id="4004845629" lat="47.5133777" lon="-122.2787835" version="1" timestamp="2016-02-13T22:54:01Z" changeset="37195901" uid="2601744" user="sctrojan79" />
   <node id="4004845632" lat="47.5134219" lon="-122.2787891" version="3" timestamp="2021-03-12T17:12:10Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="level_crossing" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="4004845633" lat="47.5136938" lon="-122.2788152" version="1" timestamp="2016-02-13T22:54:01Z" changeset="37195901" uid="2601744" user="sctrojan79" />
   <node id="4004845635" lat="47.5141324" lon="-122.2788431" version="1" timestamp="2016-02-13T22:54:01Z" changeset="37195901" uid="2601744" user="sctrojan79" />
@@ -1401,25 +1401,25 @@
   <node id="4082217926" lat="47.8095694" lon="-122.3013483" version="3" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
   <node id="4343165756" lat="47.6541210" lon="-122.3041610" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="4396958143" lat="47.4224336" lon="-122.2977139" version="10" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Angle Lake to Lynnwood" />
-    <tag k="fixme" v="Position needs adjusting" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="99914" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Angle Lake" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="65" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="start_date" v="2016-09-24" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/angle-lake-station" />
+	<tag k="description" v="Angle Lake to Lynnwood" />
+	<tag k="fixme" v="Position needs adjusting" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="99914" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Angle Lake" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="65" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="start_date" v="2016-09-24" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/angle-lake-station" />
   </node>
   <node id="4396958152" lat="47.4227421" lon="-122.2977246" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="4396958153" lat="47.4232015" lon="-122.2977317" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
@@ -1427,7 +1427,7 @@
   <node id="4396958158" lat="47.4239766" lon="-122.2977408" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="4396958159" lat="47.4241762" lon="-122.2977386" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="4396958164" lat="47.4251506" lon="-122.2976590" version="3" timestamp="2021-03-12T17:12:10Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="4396958165" lat="47.4254048" lon="-122.2976354" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="4396958166" lat="47.4258013" lon="-122.2976171" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
@@ -1456,14 +1456,14 @@
   <node id="4396958226" lat="47.4406947" lon="-122.2966342" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="4396958227" lat="47.4409398" lon="-122.2966342" version="2" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="4396958231" lat="47.4442406" lon="-122.2967465" version="3" timestamp="2021-03-12T17:12:10Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="4621207944" lat="47.6110061" lon="-122.3379166" version="3" timestamp="2021-03-12T19:00:24Z" changeset="100926952" uid="119881" user="clay_c" />
   <node id="4621257300" lat="47.5989361" lon="-122.3279543" version="2" timestamp="2019-10-08T02:57:49Z" changeset="75398360" uid="485808" user="Alexey Lukin" />
   <node id="4621257303" lat="47.5977892" lon="-122.3279614" version="2" timestamp="2019-10-08T02:57:49Z" changeset="75398360" uid="485808" user="Alexey Lukin" />
   <node id="4621286934" lat="47.6020827" lon="-122.3306693" version="1" timestamp="2017-01-20T20:41:05Z" changeset="45337521" uid="2601744" user="sctrojan79" />
   <node id="4799519582" lat="47.6491621" lon="-122.3036691" version="3" timestamp="2018-07-18T04:42:30Z" changeset="60819585" uid="7572965" user="lasagna">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="5028099431" lat="47.5774963" lon="-122.3208014" version="1" timestamp="2017-08-11T09:21:35Z" changeset="51026730" uid="1442206" user="pdxrider" />
   <node id="5767498066" lat="47.6503827" lon="-122.3037057" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
@@ -1535,23 +1535,23 @@
   <node id="6516171557" lat="47.7610351" lon="-122.3243863" version="3" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
   <node id="6516171564" lat="47.7619226" lon="-122.3236279" version="5" timestamp="2024-04-20T22:57:23Z" changeset="150282928" uid="21016429" user="Jimmyisawkward" />
   <node id="6516171565" lat="47.7640620" lon="-122.3228825" version="8" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Shoreline North to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="N17-T1" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Shoreline North/185th" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="42" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/shoreline-north-185th-station" />
+	<tag k="description" v="Shoreline North to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="N17-T1" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Shoreline North/185th" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="42" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/shoreline-north-185th-station" />
   </node>
   <node id="6516171566" lat="47.7631241" lon="-122.3230914" version="3" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
   <node id="6516171570" lat="47.7624506" lon="-122.3233196" version="3" timestamp="2024-04-20T22:57:23Z" changeset="150282928" uid="21016429" user="Jimmyisawkward" />
@@ -1647,12 +1647,12 @@
   <node id="7018993007" lat="47.8087098" lon="-122.3029538" version="2" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
   <node id="7018993009" lat="47.8105384" lon="-122.2997353" version="4" timestamp="2024-04-17T17:09:01Z" changeset="150140575" uid="567792" user="Natfoot" />
   <node id="7083139578" lat="47.5925115" lon="-122.3271060" version="4" timestamp="2023-03-27T03:05:41Z" changeset="134156999" uid="10350264" user="UW Maddie">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7147732811" lat="47.5460144" lon="-122.2855086" version="3" timestamp="2021-01-05T07:39:42Z" changeset="96958227" uid="12430719" user="Captain Taihu">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="level_crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="7415860071" lat="47.7929433" lon="-122.3167828" version="2" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
   <node id="7431352183" lat="47.7127190" lon="-122.3271267" version="3" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
@@ -1673,452 +1673,452 @@
   <node id="7449709596" lat="47.7128355" lon="-122.3270339" version="2" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="7449709598" lat="47.7110018" lon="-122.3284751" version="4" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="7561159182" lat="47.5316541" lon="-122.2806784" version="3" timestamp="2023-07-17T00:26:12Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7561161587" lat="47.5314250" lon="-122.2806749" version="3" timestamp="2023-07-17T00:26:11Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7575232867" lat="47.5609526" lon="-122.2934422" version="3" timestamp="2025-01-18T23:40:28Z" changeset="161509296" uid="21982638" user="pwbriggs">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="crossing:bell" v="yes" />
-    <tag k="crossing:light" v="yes" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="crossing:bell" v="yes" />
+	<tag k="crossing:light" v="yes" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7575239686" lat="47.5585437" lon="-122.2919155" version="2" timestamp="2023-01-29T06:57:35Z" changeset="131830361" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7575239729" lat="47.5627383" lon="-122.2945677" version="2" timestamp="2023-01-29T06:57:36Z" changeset="131830361" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7575239735" lat="47.5629603" lon="-122.2947112" version="2" timestamp="2023-01-29T06:58:14Z" changeset="131830361" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7575244944" lat="47.5390086" lon="-122.2820675" version="1" timestamp="2020-05-31T14:31:25Z" changeset="86010702" uid="10731609" user="KiloCrimson">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7575244968" lat="47.5369340" lon="-122.2810071" version="2" timestamp="2023-01-19T20:23:07Z" changeset="131481539" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="7612641683" lat="47.5354172" lon="-122.2807461" version="1" timestamp="2020-06-11T14:45:43Z" changeset="86522982" uid="10904111" user="technician_lyft">
-    <tag k="railway" v="level_crossing" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="7734557864" lat="47.7901335" lon="-122.3166951" version="3" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
   <node id="7855936990" lat="47.7037591" lon="-122.3282401" version="3" timestamp="2021-03-25T21:19:39Z" changeset="101745862" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8210223529" lat="47.5928695" lon="-122.3271214" version="2" timestamp="2020-12-11T13:04:56Z" changeset="95683154" uid="10993864" user="MapperNews" />
   <node id="8210223535" lat="47.5950781" lon="-122.3279594" version="2" timestamp="2020-12-21T16:39:07Z" changeset="96207940" uid="10993864" user="MapperNews" />
   <node id="8210879080" lat="47.5994303" lon="-122.3279639" version="2" timestamp="2021-03-12T19:00:24Z" changeset="100926952" uid="119881" user="clay_c">
-    <tag k="fixme" v="location approximate" />
-    <tag k="railway" v="switch" />
+	<tag k="fixme" v="location approximate" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8214799366" lat="47.5550889" lon="-122.2898726" version="2" timestamp="2024-08-11T04:39:51Z" changeset="155085090" uid="20748501" user="nickswalker">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="8214799369" lat="47.5553309" lon="-122.2899802" version="2" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="8214851118" lat="47.5262447" lon="-122.2792264" version="3" timestamp="2023-07-17T00:24:49Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="8214851122" lat="47.5259924" lon="-122.2791014" version="3" timestamp="2023-07-17T00:24:48Z" changeset="138598507" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="8219631067" lat="47.5927616" lon="-122.3271118" version="1" timestamp="2020-12-11T13:04:56Z" changeset="95683154" uid="10993864" user="MapperNews" />
   <node id="8242627149" lat="47.5972343" lon="-122.3281022" version="1" timestamp="2020-12-19T12:44:43Z" changeset="96107025" uid="10993864" user="MapperNews" />
   <node id="8248473400" lat="47.5934094" lon="-122.3273067" version="2" timestamp="2021-03-07T10:44:19Z" changeset="100568315" uid="10993864" user="MapperNews" />
   <node id="8248473401" lat="47.5935978" lon="-122.3273931" version="1" timestamp="2020-12-21T16:39:07Z" changeset="96207940" uid="10993864" user="MapperNews" />
   <node id="8323238489" lat="47.5702518" lon="-122.2968609" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="backward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="backward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238491" lat="47.5687506" lon="-122.2968498" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="forward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="right" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="forward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="right" />
   </node>
   <node id="8323238493" lat="47.5681972" lon="-122.2968570" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238496" lat="47.5663600" lon="-122.2967862" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238498" lat="47.5661952" lon="-122.2967205" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238499" lat="47.5639503" lon="-122.2953377" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238501" lat="47.5637864" lon="-122.2952353" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238504" lat="47.5629387" lon="-122.2946972" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238505" lat="47.5627708" lon="-122.2945878" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238508" lat="47.5609406" lon="-122.2934344" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238509" lat="47.5607213" lon="-122.2932945" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238511" lat="47.5585975" lon="-122.2919502" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238514" lat="47.5587834" lon="-122.2920685" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323238515" lat="47.5571876" lon="-122.2910603" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323246416" lat="47.5397762" lon="-122.2824628" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="forward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="forward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265817" lat="47.5569199" lon="-122.2908930" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265819" lat="47.5553210" lon="-122.2899758" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265823" lat="47.5551405" lon="-122.2898946" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265825" lat="47.5535326" lon="-122.2891563" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265827" lat="47.5533502" lon="-122.2890691" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265829" lat="47.5513228" lon="-122.2880899" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265831" lat="47.5511445" lon="-122.2880037" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265833" lat="47.5483325" lon="-122.2866374" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="backward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="backward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265835" lat="47.5480698" lon="-122.2865189" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265837" lat="47.5478964" lon="-122.2864366" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="forward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="forward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265839" lat="47.5461716" lon="-122.2855904" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265841" lat="47.5459654" lon="-122.2854845" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265843" lat="47.5447125" lon="-122.2848817" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="backward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="backward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265845" lat="47.5444787" lon="-122.2847691" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265847" lat="47.5442168" lon="-122.2846424" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="forward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="forward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265849" lat="47.5425703" lon="-122.2838458" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265851" lat="47.5423795" lon="-122.2837535" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265853" lat="47.5418095" lon="-122.2834816" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="backward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="backward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265855" lat="47.5407446" lon="-122.2829622" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265857" lat="47.5405992" lon="-122.2828861" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="backward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="backward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323265858" lat="47.5405458" lon="-122.2828581" version="1" timestamp="2021-01-15T05:14:32Z" changeset="97529720" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="forward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="forward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298618" lat="47.5389937" lon="-122.2820593" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298620" lat="47.5387961" lon="-122.2819583" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298622" lat="47.5372223" lon="-122.2811446" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298624" lat="47.5369785" lon="-122.2810266" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298626" lat="47.5356097" lon="-122.2807498" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298629" lat="47.5352276" lon="-122.2807419" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298631" lat="47.5334458" lon="-122.2807096" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298633" lat="47.5332205" lon="-122.2807057" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298635" lat="47.5316323" lon="-122.2806785" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298637" lat="47.5314668" lon="-122.2806757" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298639" lat="47.5301122" lon="-122.2806523" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298640" lat="47.5298587" lon="-122.2806438" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298643" lat="47.5280370" lon="-122.2801353" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298645" lat="47.5278283" lon="-122.2800298" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298647" lat="47.5262331" lon="-122.2792205" version="2" timestamp="2021-03-12T17:12:12Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298649" lat="47.5260371" lon="-122.2791210" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298651" lat="47.5243822" lon="-122.2788176" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298652" lat="47.5241386" lon="-122.2788746" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298654" lat="47.5233543" lon="-122.2790894" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298656" lat="47.5231390" lon="-122.2791476" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298658" lat="47.5218227" lon="-122.2794991" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="backward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="backward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298660" lat="47.5211611" lon="-122.2796723" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="forward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="forward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298663" lat="47.5182108" lon="-122.2795617" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="forward" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="forward" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298666" lat="47.5173274" lon="-122.2793632" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323298668" lat="47.5169348" lon="-122.2792716" version="1" timestamp="2021-01-15T05:26:09Z" changeset="97530452" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323307794" lat="47.5135578" lon="-122.2788028" version="1" timestamp="2021-01-15T05:33:16Z" changeset="97530920" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8323307797" lat="47.5133109" lon="-122.2787741" version="1" timestamp="2021-01-15T05:33:16Z" changeset="97530920" uid="11127047" user="fogey">
-    <tag k="railway" v="signal" />
-    <tag k="railway:signal:direction" v="both" />
-    <tag k="railway:signal:main:form" v="light" />
-    <tag k="railway:signal:position" v="left" />
+	<tag k="railway" v="signal" />
+	<tag k="railway:signal:direction" v="both" />
+	<tag k="railway:signal:main:form" v="light" />
+	<tag k="railway:signal:position" v="left" />
   </node>
   <node id="8459088526" lat="47.4242569" lon="-122.2977336" version="1" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="8459088529" lat="47.4256354" lon="-122.2976210" version="1" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="8459088530" lat="47.4261687" lon="-122.2976180" version="2" timestamp="2021-03-02T18:06:16Z" changeset="100297907" uid="10993864" user="MapperNews" />
   <node id="8459088532" lat="47.4245424" lon="-122.2977103" version="2" timestamp="2021-03-12T17:12:12Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8459088539" lat="47.4240806" lon="-122.2977403" version="1" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
   <node id="8459088543" lat="47.4322532" lon="-122.2979329" version="1" timestamp="2021-02-25T20:38:39Z" changeset="100002877" uid="10993864" user="MapperNews" />
@@ -2155,7 +2155,7 @@
   <node id="8459223578" lat="47.4432456" lon="-122.2966857" version="1" timestamp="2021-02-25T21:17:42Z" changeset="100004351" uid="10993864" user="MapperNews" />
   <node id="8459223579" lat="47.4436061" lon="-122.2967023" version="1" timestamp="2021-02-25T21:17:42Z" changeset="100004351" uid="10993864" user="MapperNews" />
   <node id="8459223582" lat="47.4418390" lon="-122.2966424" version="2" timestamp="2021-03-12T17:12:12Z" changeset="100922210" uid="119881" user="clay_c">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8459223598" lat="47.4427492" lon="-122.2966681" version="1" timestamp="2021-02-25T21:17:42Z" changeset="100004351" uid="10993864" user="MapperNews" />
   <node id="8459223599" lat="47.4438831" lon="-122.2967198" version="1" timestamp="2021-02-25T21:17:42Z" changeset="100004351" uid="10993864" user="MapperNews" />
@@ -2171,10 +2171,10 @@
   <node id="8460774298" lat="47.6966060" lon="-122.3285330" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="8460774299" lat="47.6962050" lon="-122.3284640" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="8460774302" lat="47.7000035" lon="-122.3285453" version="3" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8460774303" lat="47.7006064" lon="-122.3284332" version="3" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8460774311" lat="47.7043896" lon="-122.3282446" version="1" timestamp="2021-02-26T10:22:07Z" changeset="100041253" uid="10993864" user="MapperNews" />
   <node id="8460774313" lat="47.7046586" lon="-122.3282504" version="2" timestamp="2021-02-27T09:25:55Z" changeset="100088543" uid="10993864" user="MapperNews" />
@@ -2186,7 +2186,7 @@
   <node id="8460785428" lat="47.7053556" lon="-122.3283682" version="2" timestamp="2021-02-27T09:25:55Z" changeset="100088543" uid="10993864" user="MapperNews" />
   <node id="8460785429" lat="47.7065780" lon="-122.3288557" version="2" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="8460785430" lat="47.7061438" lon="-122.3286834" version="3" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8460785431" lat="47.6913190" lon="-122.3283900" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="8460785434" lat="47.6917210" lon="-122.3284510" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
@@ -2196,7 +2196,7 @@
   <node id="8460785438" lat="47.6887840" lon="-122.3271530" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="8460785439" lat="47.6884780" lon="-122.3268850" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="8460785443" lat="47.6968429" lon="-122.3285755" version="3" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="8460785444" lat="47.6990260" lon="-122.3287160" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="8460785446" lat="47.6987810" lon="-122.3287420" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
@@ -2525,54 +2525,54 @@
   <node id="8511481740" lat="47.5979061" lon="-122.3279607" version="1" timestamp="2021-03-12T19:00:23Z" changeset="100926952" uid="119881" user="clay_c" />
   <node id="8604356096" lat="47.7832196" lon="-122.3149950" version="3" timestamp="2024-04-20T22:57:23Z" changeset="150282928" uid="21016429" user="Jimmyisawkward" />
   <node id="8613567725" lat="47.7242281" lon="-122.3237872" version="9" timestamp="2025-01-25T02:12:43Z" changeset="161733224" uid="9159276" user="OrdinaryScarlett">
-    <tag k="construction:public_transport" v="stop_position" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Pinehurst" />
-    <tag k="opening_date" v="2026" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="ref" v="44" />
-    <tag k="website" v="https://www.soundtransit.org/system-expansion/pinehurst-station" />
+	<tag k="construction:public_transport" v="stop_position" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Pinehurst" />
+	<tag k="opening_date" v="2026" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="ref" v="44" />
+	<tag k="website" v="https://www.soundtransit.org/system-expansion/pinehurst-station" />
   </node>
   <node id="8639188566" lat="47.7854379" lon="-122.3147241" version="5" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Mountlake Terrace to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="N19-T1" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Mountlake Terrace" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="41" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/mountlake-terrace-station" />
+	<tag k="description" v="Mountlake Terrace to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="N19-T1" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Mountlake Terrace" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="41" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/mountlake-terrace-station" />
   </node>
   <node id="9104157397" lat="47.6573350" lon="-122.3117260" version="2" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="9138873172" lat="47.7030310" lon="-122.3282140" version="7" timestamp="2024-08-31T11:27:17Z" changeset="156010502" uid="9159276" user="OrdinaryScarlett">
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="990006" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Northgate" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="45" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/northgate-station" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="990006" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Northgate" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="45" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/northgate-station" />
   </node>
   <node id="9138873173" lat="47.6941720" lon="-122.3284360" version="1" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="9138873174" lat="47.6868740" lon="-122.3250580" version="1" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
@@ -2600,24 +2600,24 @@
   <node id="9138873196" lat="47.6811560" lon="-122.3181640" version="1" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="9138873197" lat="47.6790470" lon="-122.3162870" version="1" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="9138873198" lat="47.6770710" lon="-122.3158940" version="6" timestamp="2024-08-31T11:27:17Z" changeset="156010502" uid="9159276" user="OrdinaryScarlett">
-    <tag k="description" v="Roosevelt to Lynnwood" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="990004" />
-    <tag k="level" v="-2" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Roosevelt" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="46" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/roosevelt-station" />
+	<tag k="description" v="Roosevelt to Lynnwood" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="990004" />
+	<tag k="level" v="-2" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Roosevelt" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="46" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/roosevelt-station" />
   </node>
   <node id="9138873200" lat="47.6762560" lon="-122.3158810" version="1" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
   <node id="9138873201" lat="47.6746330" lon="-122.3157860" version="1" timestamp="2021-10-01T21:07:59Z" changeset="111981888" uid="2601744" user="sctrojan79" />
@@ -2678,53 +2678,53 @@
   <node id="9795954224" lat="47.6562694" lon="-122.3066719" version="3" timestamp="2022-06-05T22:34:20Z" changeset="121996553" uid="16200289" user="tealcattail" />
   <node id="9795954236" lat="47.6561502" lon="-122.3064296" version="2" timestamp="2022-06-05T02:33:21Z" changeset="121957864" uid="16200289" user="tealcattail" />
   <node id="9932706419" lat="47.7303864" lon="-122.3236467" version="1" timestamp="2022-08-04T22:33:18Z" changeset="124499339" uid="567792" user="Natfoot">
-    <tag k="bridge:support" v="pier" />
+	<tag k="bridge:support" v="pier" />
   </node>
   <node id="10082704427" lat="47.5461665" lon="-122.2855874" version="1" timestamp="2022-10-07T20:25:40Z" changeset="127171209" uid="319146" user="ryageo">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="10082704459" lat="47.5459036" lon="-122.2854544" version="2" timestamp="2023-08-01T23:39:29Z" changeset="139321606" uid="7247" user="goldfndr">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="10082704465" lat="47.5510976" lon="-122.2879804" version="2" timestamp="2023-10-24T13:59:13Z" changeset="143067095" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="10082704467" lat="47.5513332" lon="-122.2880940" version="2" timestamp="2023-10-24T13:59:15Z" changeset="143067095" uid="384146" user="wislander">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="10652960803" lat="47.6975161" lon="-122.3286930" version="1" timestamp="2023-02-12T21:30:03Z" changeset="132463766" uid="567792" user="Natfoot">
-    <tag k="railway" v="level_crossing" />
+	<tag k="railway" v="level_crossing" />
   </node>
   <node id="10764898460" lat="47.5922725" lon="-122.3271060" version="1" timestamp="2023-03-27T03:05:41Z" changeset="134156999" uid="10350264" user="UW Maddie">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11021334241" lat="47.5965855" lon="-122.3281342" version="1" timestamp="2023-07-03T03:26:41Z" changeset="138045206" uid="18306654" user="gameswill2008" />
   <node id="11145758887" lat="47.5863485" lon="-122.3273731" version="1" timestamp="2023-08-26T08:33:42Z" changeset="140401064" uid="10350264" user="UW Maddie">
-    <tag k="crossing:markings" v="surface" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:markings" v="surface" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11145758889" lat="47.5859671" lon="-122.3273739" version="1" timestamp="2023-08-26T08:33:42Z" changeset="140401064" uid="10350264" user="UW Maddie">
-    <tag k="crossing:markings" v="surface" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:markings" v="surface" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11197113996" lat="47.5806188" lon="-122.3273762" version="1" timestamp="2023-09-17T05:18:49Z" changeset="141366011" uid="10350264" user="UW Maddie">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11754615868" lat="47.5173478" lon="-122.2793681" version="1" timestamp="2024-03-23T04:12:08Z" changeset="149037592" uid="10350264" user="UW Maddie">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11754624775" lat="47.5233926" lon="-122.2790790" version="1" timestamp="2024-03-23T04:12:08Z" changeset="149037592" uid="10350264" user="UW Maddie">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11754624791" lat="47.5231196" lon="-122.2791529" version="1" timestamp="2024-03-23T04:12:08Z" changeset="149037592" uid="10350264" user="UW Maddie">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11777645865" lat="47.8021790" lon="-122.3139438" version="2" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
   <node id="11777658970" lat="47.8055803" lon="-122.3088182" version="1" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
@@ -2732,10 +2732,10 @@
   <node id="11777658972" lat="47.8039887" lon="-122.3116728" version="1" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
   <node id="11777658973" lat="47.8006331" lon="-122.3157524" version="2" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
   <node id="11777658975" lat="47.7971834" lon="-122.3162703" version="2" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11777658980" lat="47.7977409" lon="-122.3162763" version="2" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11777658985" lat="47.7909166" lon="-122.3168747" version="1" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
   <node id="11777658986" lat="47.7907818" lon="-122.3168707" version="1" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
@@ -2754,23 +2754,23 @@
   <node id="11777659019" lat="47.7804456" lon="-122.3164862" version="1" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
   <node id="11777659021" lat="47.7737989" lon="-122.3183723" version="1" timestamp="2024-04-01T05:32:27Z" changeset="149416495" uid="282329" user="compdude" />
   <node id="11806157928" lat="47.8157347" lon="-122.2944665" version="4" timestamp="2024-08-31T07:05:15Z" changeset="156001224" uid="21016429" user="Jimmyisawkward">
-    <tag k="description" v="Lynnwood from Angle Lake" />
-    <tag k="gtfs:feed" v="US-WA-ST" />
-    <tag k="gtfs:stop_id" v="N23-T1" />
-    <tag k="light_rail" v="yes" />
-    <tag k="name" v="Lynnwood City Center" />
-    <tag k="network" v="Link" />
-    <tag k="network:wikidata" v="Q2778618" />
-    <tag k="network:wikipedia" v="en:Link light rail" />
-    <tag k="operator" v="Sound Transit" />
-    <tag k="operator:short" v="ST" />
-    <tag k="operator:wikidata" v="Q3965367" />
-    <tag k="operator:wikipedia" v="en:Sound Transit" />
-    <tag k="public_transport" v="stop_position" />
-    <tag k="railway" v="stop" />
-    <tag k="ref" v="40" />
-    <tag k="route_ref" v="1 Line" />
-    <tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/lynnwood-city-center-station" />
+	<tag k="description" v="Lynnwood from Angle Lake" />
+	<tag k="gtfs:feed" v="US-WA-ST" />
+	<tag k="gtfs:stop_id" v="N23-T1" />
+	<tag k="light_rail" v="yes" />
+	<tag k="name" v="Lynnwood City Center" />
+	<tag k="network" v="Link" />
+	<tag k="network:wikidata" v="Q2778618" />
+	<tag k="network:wikipedia" v="en:Link light rail" />
+	<tag k="operator" v="Sound Transit" />
+	<tag k="operator:short" v="ST" />
+	<tag k="operator:wikidata" v="Q3965367" />
+	<tag k="operator:wikipedia" v="en:Sound Transit" />
+	<tag k="public_transport" v="stop_position" />
+	<tag k="railway" v="stop" />
+	<tag k="ref" v="40" />
+	<tag k="route_ref" v="1 Line" />
+	<tag k="website" v="https://www.soundtransit.org/ride-with-us/stops-stations/lynnwood-city-center-station" />
   </node>
   <node id="11806157929" lat="47.8154258" lon="-122.2950010" version="1" timestamp="2024-04-10T02:20:48Z" changeset="149800055" uid="21016429" user="Jimmyisawkward" />
   <node id="11806157930" lat="47.8151959" lon="-122.2953988" version="1" timestamp="2024-04-10T02:20:48Z" changeset="149800055" uid="21016429" user="Jimmyisawkward" />
@@ -2821,10 +2821,10 @@
   <node id="11813094770" lat="47.7935402" lon="-122.3167109" version="1" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
   <node id="11813094771" lat="47.7936337" lon="-122.3166957" version="1" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
   <node id="11813094841" lat="47.7655494" lon="-122.3225519" version="1" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11813094853" lat="47.7649939" lon="-122.3226760" version="1" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11813094867" lat="47.7617674" lon="-122.3237446" version="2" timestamp="2024-04-20T22:57:23Z" changeset="150282928" uid="21016429" user="Jimmyisawkward" />
   <node id="11813094870" lat="47.7605821" lon="-122.3247902" version="1" timestamp="2024-04-13T03:08:38Z" changeset="149934259" uid="21016429" user="Jimmyisawkward" />
@@ -2954,10 +2954,10 @@
   <node id="11833939751" lat="47.7838791" lon="-122.3147418" version="1" timestamp="2024-04-20T22:57:23Z" changeset="150282928" uid="21016429" user="Jimmyisawkward" />
   <node id="11833939752" lat="47.7628441" lon="-122.3231664" version="1" timestamp="2024-04-20T22:57:23Z" changeset="150282928" uid="21016429" user="Jimmyisawkward" />
   <node id="11883026877" lat="47.7386695" lon="-122.3268900" version="1" timestamp="2024-05-06T06:15:17Z" changeset="150948143" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11883026878" lat="47.7391755" lon="-122.3272084" version="1" timestamp="2024-05-06T06:15:17Z" changeset="150948143" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11883026935" lat="47.7245265" lon="-122.3237761" version="1" timestamp="2024-05-06T06:15:17Z" changeset="150948143" uid="21016429" user="Jimmyisawkward" />
   <node id="11883026936" lat="47.7246362" lon="-122.3237714" version="1" timestamp="2024-05-06T06:15:17Z" changeset="150948143" uid="21016429" user="Jimmyisawkward" />
@@ -3060,10 +3060,10 @@
   <node id="11931983588" lat="47.7240723" lon="-122.3237929" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="11931983590" lat="47.7242513" lon="-122.3237863" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="11931983591" lat="47.7233427" lon="-122.3238206" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11931983602" lat="47.7227840" lon="-122.3238420" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward">
-    <tag k="railway" v="switch" />
+	<tag k="railway" v="switch" />
   </node>
   <node id="11931983605" lat="47.7220412" lon="-122.3238627" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="11931983607" lat="47.7215136" lon="-122.3238432" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
@@ -3100,37 +3100,37 @@
   <node id="11932021985" lat="47.7154828" lon="-122.3252896" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="11932021986" lat="47.7158576" lon="-122.3249951" version="1" timestamp="2024-05-25T00:40:02Z" changeset="151791643" uid="21016429" user="Jimmyisawkward" />
   <node id="11932446158" lat="47.5682204" lon="-122.2968561" version="1" timestamp="2024-05-25T07:00:08Z" changeset="151797159" uid="10350264" user="UW Maddie">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11940733436" lat="47.5718260" lon="-122.2968540" version="2" timestamp="2024-06-19T17:16:34Z" changeset="152906770" uid="21331688" user="Heyitsarkay">
-    <tag k="crossing:barrier" v="no" />
-    <tag k="railway" v="crossing" />
+	<tag k="crossing:barrier" v="no" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11940733440" lat="47.5720663" lon="-122.2968508" version="1" timestamp="2024-05-28T23:07:34Z" changeset="151966027" uid="10350264" user="UW Maddie">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11956306514" lat="47.5663749" lon="-122.2967912" version="1" timestamp="2024-06-04T17:50:02Z" changeset="152254944" uid="10350264" user="UW Maddie">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="11956306518" lat="47.5661615" lon="-122.2967050" version="1" timestamp="2024-06-04T17:50:02Z" changeset="152254944" uid="10350264" user="UW Maddie">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="12099711910" lat="47.5135806" lon="-122.2788055" version="1" timestamp="2024-08-08T23:30:55Z" changeset="155000561" uid="20748501" user="nickswalker">
-    <tag k="crossing" v="uncontrolled" />
-    <tag k="crossing:markings" v="yes" />
-    <tag k="highway" v="crossing" />
+	<tag k="crossing" v="uncontrolled" />
+	<tag k="crossing:markings" v="yes" />
+	<tag k="highway" v="crossing" />
   </node>
   <node id="12103725211" lat="47.5425842" lon="-122.2838525" version="1" timestamp="2024-08-11T04:39:51Z" changeset="155085090" uid="20748501" user="nickswalker">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="12103725213" lat="47.5423361" lon="-122.2837326" version="1" timestamp="2024-08-11T04:39:51Z" changeset="155085090" uid="20748501" user="nickswalker">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="12103725244" lat="47.5535517" lon="-122.2891653" version="1" timestamp="2024-08-11T04:39:51Z" changeset="155085090" uid="20748501" user="nickswalker">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="12103725249" lat="47.5533103" lon="-122.2890499" version="1" timestamp="2024-08-11T04:39:51Z" changeset="155085090" uid="20748501" user="nickswalker">
-    <tag k="railway" v="crossing" />
+	<tag k="railway" v="crossing" />
   </node>
   <node id="12469496671" lat="47.6189326" lon="-122.3201267" version="1" timestamp="2025-01-02T19:00:29Z" changeset="160922337" uid="187436" user="David H" />
   

@@ -1,6 +1,6 @@
 class_name road extends Node
 
-var upscaleCo = 100
+var upscaleCo = 1
 var positions = []
 var platformPositions = []
 '''
@@ -19,7 +19,7 @@ func addplatformcoords(coord):
 func coordtopos(coord):
 	var pos = Vector2(0,0)
 	pos.x = 366.5 * (coord.y + 123.876)
-	pos.y = 366.5 * (coord.x - 48.323)
+	pos.y = 366.5 * 1.5 * (coord.x - 48.323)
 	return pos
 
 '''

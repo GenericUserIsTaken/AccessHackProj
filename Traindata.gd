@@ -12,7 +12,7 @@ var data : PackedStringArray
 var stops = ["40_S01","40_C37","40_C35","40_C29","40_C27","40_C25","40_C23","40_C19","40_C15","40_N03","40_N05","40_N07","40_N09","40_N11","40_N15","40_N17","40_N19","40_N23"]
 #var url = 'https://api.pugetsound.onebusaway.org/api/where/stops-for-route/<route_placeholder>.json?key=<key_placeholder>'
 var url = 'https://api.pugetsound.onebusaway.org/api/where/arrivals-and-departures-for-stop/<route_placeholder>.json?key=<key_placeholder>'
-const route_id := "40_100479"
+const route_id := "40_S01"
 const key := "5654bb33-edab-4322-8688-94b9d262abe4"
 
 # Called when the node enters the scene tree for the first time.

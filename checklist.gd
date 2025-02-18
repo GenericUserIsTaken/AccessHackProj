@@ -157,3 +157,6 @@ func _on_option_button_item_selected(index: int) -> void:
 func _on_spin_box_value_changed(value: float) -> void:
 	plan_length = int(value)
 	shuffle_planned_locations()
+
+func _on_shuffle_button_pressed() -> void:
+	shuffle_planned_locations()

@@ -2,12 +2,15 @@ extends Control
 
 @onready var a_list = %ActivitiesList
 @onready var p_list = %PlannedList
+@onready var location_window_prefab = preload("res://location_window.tscn")
 
 #              0         1          2            3           4         5           6
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 @onready var start_day = int(%StartDaySelector.selected)
 @onready var plan_length = int(%PlanLengthSelector.value)
+
+var current_location_window = null
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -115,6 +118,7 @@ func rebuild_chosen_list():
 	for day_name in Global.planned_locations:
 		var day = p_list.create_item()
 		day.set_text(0, day_name)
+		day.set_metadata(0, "<daynode>")
 		
 		for activity_name in Global.planned_locations[day_name]:
 			var location_path_array = Global.planned_locations[day_name][activity_name].split(",")
@@ -160,3 +164,17 @@ func _on_spin_box_value_changed(value: float) -> void:
 
 func _on_shuffle_button_pressed() -> void:
 	shuffle_planned_locations()
+
+func show_info_for_location(location_path):
+	if current_location_window != null:
+		current_location_window.queue_free()
+	var new_location_window = location_window_prefab.instantiate()
+	%LeftWindow.add_child(new_location_window)
+	new_location_window.set_info_from_path(location_path)
+	current_location_window = new_location_window
+
+func _on_planned_list_item_mouse_selected(mouse_position: Vector2, mouse_button_index: int) -> void:
+	var treeitem = p_list.get_item_at_position(mouse_position)
+	var location_path = treeitem.get_metadata(0)
+	if location_path != "<daynode>":
+		show_info_for_location(location_path)

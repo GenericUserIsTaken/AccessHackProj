@@ -64,19 +64,19 @@
 			"Petra Bistro": {
 				"address": "2501 4th Ave, Seattle, WA 98121",
 				"hours": "11am - 10pm",
-				"link": "petrabistro.com",
+				"link": "https://petrabistro.com",
 				"description": "Jordanian & Mediterranean cuisine with a warm, inviting atmosphere."
 			},
 			"Mamnoon": {
 				"address": "1508 Melrose Ave, Seattle, WA 98122",
 				"hours": "11am - 9pm",
-				"link": "mamnoonrestaurant.com",
+				"link": "https://mamnoonrestaurant.com",
 				"description": "Lebanese and Syrian-inspired dishes with a modern twist."
 			},
 			"Mediterranean Kitchen": {
 				"address": "103 Bellevue Way NE, Bellevue, WA 98004",
 				"hours": "11am - 10pm",
-				"link": "mediterraneankitchen.com",
+				"link": "https://mediterraneankitchen.com",
 				"description": "Family-run restaurant known for generous portions and authentic flavors."
 			}
 		}
@@ -86,19 +86,19 @@
 			"Museum of Pop Culture (MoPOP)": {
 				"address": "325 5th Ave N, Seattle, WA 98109",
 				"hours": "10am - 5pm",
-				"link": "mopop.org",
+				"link": "https://mopop.org",
 				"description": "Interactive museum featuring music, sci-fi, and pop culture exhibits."
 			},
 			"Seattle Art Museum (SAM)": {
 				"address": "1300 1st Ave, Seattle, WA 98101",
 				"hours": "10am - 5pm",
-				"link": "seattleartmuseum.org",
+				"link": "https://seattleartmuseum.org",
 				"description": "Premier art museum showcasing global and contemporary works."
 			},
 			"The Museum of Flight": {
 				"address": "9404 E Marginal Way S, Seattle, WA 98108",
 				"hours": "10am - 5pm",
-				"link": "museumofflight.org",
+				"link": "https://museumofflight.org",
 				"description": "One of the largest air and space museums in the world."
 			}
 		},
@@ -188,13 +188,13 @@
 			"Ballard Farmers Market": {
 				"address": "5345 Ballard Ave NW, Seattle, WA 98107",
 				"hours": "Sundays: 9am - 2pm",
-				"link": "sfma.net",
+				"link": "https://sfma.net",
 				"description": "Year-round farmers market featuring local produce, meats, and crafts."
 			},
 			"University District Farmers Market": {
 				"address": "5031 University Way NE, Seattle, WA 98105",
 				"hours": "Saturdays: 9am - 2pm",
-				"link": "seattlefarmersmarkets.org",
+				"link": "https://seattlefarmersmarkets.org",
 				"description": "A vibrant farmers market with fresh produce, local goods, and live music."
 			}
 		}

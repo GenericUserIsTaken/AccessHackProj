@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://c8hlcettufeth"]
+[gd_scene load_steps=2 format=3 uid="uid://c8hlcettufeth"]
+
+[ext_resource type="Script" path="res://suggest_location.gd" id="1_hejx8"]
 
 [node name="SuggestLocation" type="Control"]
 layout_mode = 3
@@ -7,6 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_hejx8")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -137,3 +140,5 @@ size_flags_horizontal = 4
 size_flags_vertical = 8
 theme_override_font_sizes/font_size = 20
 text = "Submit"
+
+[connection signal="pressed" from="MarginContainer/Button" to="." method="_on_button_pressed"]

@@ -26,6 +26,9 @@ func _ready() -> void:
 
 func load_activities_json():
 	activities = JSON.parse_string(FileAccess.get_file_as_string("res://data/activities.json"))
+	activities["user_submitted"] = {}
+	activities["user_submitted"]["suggested_locations"] = {}
+	
 	has_loaded_activities_json = true
 	loaded_activities_json.emit()
 	print("loaded activities json")

@@ -21,8 +21,14 @@ func _ready() -> void:
 		rebuild_activities_list()
 	else:
 		Global.loaded_activities_json.connect(_on_loaded_activities_json)
+	
+	# connect to signal that's called when new locations are added
+	Global.rebuild_scheduler.connect(_on_rebuild_scheduler)
 
 func _on_loaded_activities_json():
+	rebuild_activities_list()
+
+func _on_rebuild_scheduler():
 	rebuild_activities_list()
 
 func rebuild_activities_list():

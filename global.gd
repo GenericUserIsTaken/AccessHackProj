@@ -1,6 +1,7 @@
 extends Node
 
 signal loaded_activities_json()
+signal rebuild_scheduler()
 var has_loaded_activities_json := false
 
 # the json loaded as a dictionary

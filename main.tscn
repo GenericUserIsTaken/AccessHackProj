@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://gwq8kblw4jo4"]
+[gd_scene load_steps=4 format=3 uid="uid://gwq8kblw4jo4"]
 
 [ext_resource type="PackedScene" uid="uid://bucrqt5wwg5gn" path="res://addons/map_tile_provider/examples/mosaic.tscn" id="1_ty4s5"]
 [ext_resource type="PackedScene" uid="uid://bc2beq738m8ps" path="res://checklist.tscn" id="2_r1yg4"]
+[ext_resource type="PackedScene" uid="uid://c8hlcettufeth" path="res://suggest_location.tscn" id="3_ac6qb"]
 
 [node name="ColorRect" type="ColorRect"]
 anchors_preset = 15
@@ -48,3 +49,8 @@ metadata/_tab_index = 1
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
+
+[node name="SuggestLocation" parent="Control" instance=ExtResource("3_ac6qb")]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
